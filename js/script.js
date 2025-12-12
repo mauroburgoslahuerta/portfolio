@@ -328,94 +328,93 @@ function startTypewriter() {
 }
 
 
-// Global Open Modal Function (Refactored i18n)
+// Global Open Modal Function (Refactored i18n & Debug)
 window.openModal = function (projectId) {
-    if (!modal) modal = document.getElementById('project-modal');
-    if (!modal) return;
-
-    const project = projectsData[projectId];
-    if (!project) return;
-
-    // Use currentLang for content
-    document.getElementById('modal-title').innerText = project.title[currentLang];
-    document.getElementById('modal-tag').innerText = project.tag;
-    document.getElementById('modal-tag').className = `tag ${project.tag.toLowerCase().split(' ')[0]}`;
-
-    // Iframe
-    const container = document.getElementById('modal-game-container');
-    const iframe = document.getElementById('modal-iframe');
-
-    if (project.iframeArr && project.iframeArr.length > 0) {
-        iframe.src = project.iframeArr[0];
-        container.style.display = 'block';
-    } else {
-        container.style.display = 'none';
-        iframe.src = "";
-    }
-
-    // Text Content
-    document.getElementById('modal-desc').innerText = project.desc[currentLang];
-    document.getElementById('modal-instructions').innerText = project.instructions[currentLang];
-
-    // Button Logic
-    const linkBtn = document.getElementById('modal-link');
-
-    if (!project.link || project.link === "#") {
-        linkBtn.style.display = 'none';
-    } else {
-        linkBtn.style.display = 'inline-block';
-        linkBtn.href = project.link;
-        linkBtn.target = "_blank";
-
-        let btnText = window.translations[currentLang]["btn-view-projects"] || "Ver Proyecto"; // Fallback generic
-        let btnIcon = '<i class="fas fa-external-link-alt"></i>';
-
-        // Custom button text logic needs translation too? 
-        // For simplicity, we'll keep consistent logic but translate base words if needed or just use standard "View Project"
-        // But the previous code had specific logic. Let's adapt it simpler:
-        if (projectId === 'uxia') {
-            btnText = "PDF";
-            btnIcon = '<i class="fas fa-file-pdf"></i>';
-        } else if (project.tag.includes('Scratch')) {
-            btnText = "Scratch";
-        } else if (project.tag.includes('MakeCode')) {
-            btnText = "MakeCode";
-            btnIcon = '<i class="fas fa-gamepad"></i>';
+    try {
+        console.log("Opening modal for:", projectId);
+        if (!modal) modal = document.getElementById('project-modal');
+        if (!modal) {
+            console.error("Modal element not found!");
+            alert("Error: Modal no encontrado en el DOM.");
+            return;
         }
 
-        // Let's use a smarter way: "View in Scratch" -> "Ver en Scratch"
-        // We can use a small map here or just keep it simple "Link"
-        // For high quality let's auto-translate the prefix "View in"
-        const prefix = currentLang === 'en' ? "View on " : (currentLang === 'gl' ? "Ver en " : "Ver en ");
-
-        if (projectId === 'uxia') {
-            linkBtn.innerHTML = `${prefix} PDF <i class="fas fa-file-pdf"></i>`;
-        } else {
-            linkBtn.innerHTML = `${prefix} ${btnText} ${btnIcon}`;
+        // Safety check for translations
+        if (!window.translations) {
+            console.error("Window.translations is undefined!");
+            alert("Error: El archivo de traducciones no se ha cargado. Verifica que 'js/translations.js' está subido.");
+            return;
         }
-    }
 
-    // Objectives
-    const objectivesList = document.getElementById('modal-objectives');
-    objectivesList.innerHTML = '';
-    project.objectives[currentLang].forEach(obj => {
-        const li = document.createElement('li');
-        li.innerText = obj;
-        objectivesList.appendChild(li);
-    });
+        const project = projectsData[projectId];
+        if (!project) {
+            console.error("Project not found in data:", projectId);
+            return;
+        }
 
-    modal.style.display = "block";
-    setTimeout(() => {
-        modal.classList.add("show");
-    }, 10);
-};
+        // Use currentLang for content
+        document.getElementById('modal-title').innerText = project.title[currentLang] || project.title['es'];
+        document.getElementById('modal-tag').innerText = project.tag;
+        document.getElementById('modal-tag').className = `tag ${project.tag.toLowerCase().split(' ')[0]}`;
 
-window.closeModal = function () {
-    if (!modal) return;
-    modal.classList.remove("show");
-    setTimeout(() => {
-        modal.style.display = "none";
+        // Iframe
+        const container = document.getElementById('modal-game-container');
         const iframe = document.getElementById('modal-iframe');
-        if (iframe) iframe.src = "";
-    }, 300);
+
+        if (project.iframeArr && project.iframeArr.length > 0) {
+            iframe.src = project.iframeArr[0];
+            container.style.display = 'block';
+        } else {
+            container.style.display = 'none';
+            iframe.src = "";
+        }
+
+        // Text Content
+        document.getElementById('modal-desc').innerText = project.desc[currentLang] || project.desc['es'];
+        document.getElementById('modal-instructions').innerText = project.instructions[currentLang] || project.instructions['es'];
+
+        // Button Logic
+        const linkBtn = document.getElementById('modal-link');
+
+        if (!project.link || project.link === "#") {
+            linkBtn.style.display = 'none';
+        } else {
+            linkBtn.style.display = 'inline-block';
+            linkBtn.href = project.link;
+            linkBtn.target = "_blank";
+
+            // Safe translation access
+            const t = window.translations[currentLang];
+            let btnText = (t && t["btn-view-projects"]) ? t["btn-view-projects"] : "Ver Proyecto";
+            let btnIcon = '<i class="fas fa-external-link-alt"></i>';
+
+            const prefix = currentLang === 'en' ? "View on " : (currentLang === 'gl' ? "Ver en " : "Ver en ");
+
+            if (projectId === 'uxia') {
+                linkBtn.innerHTML = `${prefix} PDF <i class="fas fa-file-pdf"></i>`;
+            } else {
+                linkBtn.innerHTML = `${prefix} ${btnText} ${btnIcon}`;
+            }
+        }
+
+        // Objectives
+        const objectivesList = document.getElementById('modal-objectives');
+        objectivesList.innerHTML = '';
+        (project.objectives[currentLang] || project.objectives['es']).forEach(obj => {
+            const li = document.createElement('li');
+            li.innerText = obj;
+            objectivesList.appendChild(li);
+        });
+
+        // Show Modal
+        modal.style.display = "flex"; // Changed from block to flex for centering if needed, matches CSS
+        // Force reflow
+        void modal.offsetWidth;
+        modal.classList.add("show");
+        console.log("Modal opened successfully.");
+
+    } catch (error) {
+        console.error("Error in openModal:", error);
+        alert("Error al abrir el proyecto: " + error.message);
+    }
 };
