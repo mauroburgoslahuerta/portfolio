@@ -183,9 +183,9 @@ const projectsData = {
 
 // Roles for Typewriter
 const rolesData = {
-    es: ["Educación Primaria", "Robótica Educativa", "Programación Educativa", "Educación Física", "Pensamiento Computacional", "Innovación Pedagógica", "Competencia Digital"],
-    gl: ["Educación Primaria", "Robótica Educativa", "Programación Educativa", "Educación Física", "Pensamento Computacional", "Innovación Pedagóxica", "Competencia Dixital"],
-    en: ["Primary Education", "Educational Robotics", "Educational Programming", "Physical Education", "Computational Thinking", "Pedagogical Innovation", "Digital Competence"]
+    es: ["Educación Primaria", "Robótica Educativa", "Programación Educativa", "Pensamiento Computacional", "Innovación Pedagógica", "Competencia Digital", "Educación Física"],
+    gl: ["Educación Primaria", "Robótica Educativa", "Programación Educativa", "Pensamento Computacional", "Innovación Pedagóxica", "Competencia Dixital", "Educación Física"],
+    en: ["Primary Education", "Educational Robotics", "Educational Programming", "Computational Thinking", "Pedagogical Innovation", "Digital Competence", "Physical Education"]
 };
 
 // Typewriter state
