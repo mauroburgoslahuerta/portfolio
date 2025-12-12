@@ -821,3 +821,66 @@ footer {
 .close-lightbox:hover {
     color: var(--accent);
 }
+
+/* =========================================
+   MOBILE RESPONSIVENESS FIXES
+   ========================================= */
+@media (max-width: 768px) {
+
+    /* Hero Section Fixes */
+    .hero {
+        padding-top: 120px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .brain-container {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 30px auto;
+        opacity: 0.8;
+    }
+
+    /* General Section Padding */
+    section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Footer Logo Fix */
+    .footer-logo {
+        width: 180px;
+        max-width: 80%;
+    }
+
+    /* About Section */
+    .skills-list {
+        grid-template-columns: 1fr;
+        max-width: 300px;
+    }
+
+    /* Contact Section */
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Navbar Mobile */
+    .nav-links {
+        width: 100%;
+        text-align: center;
+    }
+}
