@@ -1,4 +1,4 @@
-const translations = {
+window.translations = {
     es: {
         "nav-home": "Inicio",
         "nav-about": "Sobre mí",
@@ -23,6 +23,8 @@ const translations = {
         "construction-text": "Sigo trabajando para subir más proyectos y recursos educativos...",
         "contact-title": "Hablemos",
         "btn-cv": "Ver CV Completo",
+        "btn-card-play": "Ver Ficha Didáctica / Jugar",
+        "btn-card-view": "Ver Ficha Didáctica",
         "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta."
     },
     gl: {
@@ -49,6 +51,8 @@ const translations = {
         "construction-text": "Sigo traballando para subir máis proxectos e recursos educativos...",
         "contact-title": "Falemos",
         "btn-cv": "Ver CV Completo",
+        "btn-card-play": "Ver Ficha Didáctica / Xogar",
+        "btn-card-view": "Ver Ficha Didáctica",
         "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta."
     },
     en: {
@@ -75,6 +79,8 @@ const translations = {
         "construction-text": "I am still working on uploading more projects and educational resources...",
         "contact-title": "Let's Talk",
         "btn-cv": "View Full CV",
+        "btn-card-play": "View Didactic Sheet / Play",
+        "btn-card-view": "View Didactic Sheet",
         "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta."
     }
 };

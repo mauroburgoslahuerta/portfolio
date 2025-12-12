@@ -261,8 +261,8 @@ window.changeLanguage = function (lang) {
     // 2. Update Static Text (data-i18n)
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        if (translations[lang] && translations[lang][key]) {
-            el.innerHTML = translations[lang][key];
+        if (window.translations[lang] && window.translations[lang][key]) {
+            el.innerHTML = window.translations[lang][key];
         }
     });
 
@@ -367,7 +367,7 @@ window.openModal = function (projectId) {
         linkBtn.href = project.link;
         linkBtn.target = "_blank";
 
-        let btnText = translations[currentLang]["btn-view-projects"] || "Ver Proyecto"; // Fallback generic
+        let btnText = window.translations[currentLang]["btn-view-projects"] || "Ver Proyecto"; // Fallback generic
         let btnIcon = '<i class="fas fa-external-link-alt"></i>';
 
         // Custom button text logic needs translation too? 
