@@ -300,16 +300,11 @@ section {
 
 .toolkit-grid {
     display: flex;
-    justify-content: center;
-    /* Centered for all screens */
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
-    /* Reduced from 4rem for better mobile fit */
+    gap: 4rem;
     opacity: 0.8;
-    max-width: 900px;
-    /* Limit width to keep them close */
-    margin: 0 auto;
 }
 
 .tool-item {
@@ -377,6 +372,7 @@ strong {
 }
 
 /* Skills list styles unchanged */
+
 .skills-list {
     margin: 30px auto 0 auto;
     /* Center the list block */
@@ -389,23 +385,11 @@ strong {
     /* Keep individual items readable */
 }
 
-/* Individual Skill Item */
 .skills-list li {
-    background: rgba(255, 255, 255, 0.05);
-    /* Subtle tile background */
-    padding: 10px 15px;
-    border-radius: 20px;
-    /* Pill shape */
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: 500;
-    transition: transform 0.2s, background 0.2s;
-}
-
-.skills-list li:hover {
-    transform: translateY(-2px);
-    background: rgba(255, 255, 255, 0.1);
 }
 
 .skills-list i {
@@ -958,9 +942,8 @@ footer {
 
     /* About Section */
     .skills-list {
-        max-width: 100%;
-        /* Let it fill width */
-        gap: 10px;
+        grid-template-columns: 1fr;
+        max-width: 300px;
     }
 
     /* Contact Section */
