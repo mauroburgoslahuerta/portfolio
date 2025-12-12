@@ -477,6 +477,8 @@ strong {
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
 
     .project-media {
         height: 250px;
@@ -511,6 +513,11 @@ strong {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
+    }
+
+    .project-content .btn-link {
+        margin-top: auto;
+        align-self: flex-start;
     }
 
     .tag {

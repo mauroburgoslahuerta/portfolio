@@ -6,9 +6,9 @@ let currentLang = 'es'; // Default language
 const projectsData = {
     "pilla-al-pez": {
         title: {
-            es: "Pilla al pez – Scratch (1.º ciclo de EP)",
-            gl: "Pilla o peixe – Scratch (1.º ciclo de EP)",
-            en: "Catch the Fish – Scratch (1st cycle PE)"
+            es: "Pilla al pez – Scratch (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            gl: "Pilla o peixe – Scratch (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            en: "Catch the Fish – Scratch (1st&nbsp;cycle&nbsp;PE)"
         },
         tag: "Scratch",
         iframeArr: ["https://scratch.mit.edu/projects/1233768152/embed"],
@@ -31,9 +31,9 @@ const projectsData = {
     },
     "makecode": {
         title: {
-            es: "Laberinto - Arcade Makecode (2º ciclo de EP)",
-            gl: "Labirinto - Arcade Makecode (2º ciclo de EP)",
-            en: "Maze - Arcade Makecode (2nd cycle PE)"
+            es: "Laberinto - Arcade Makecode (2.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            gl: "Labirinto - Arcade Makecode (2.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            en: "Maze - Arcade Makecode (2nd&nbsp;cycle&nbsp;PE)"
         },
         tag: "MakeCode Arcade",
         iframeArr: ["https://arcade.makecode.com/---run?id=S41120-74970-90190-57842"],
@@ -56,9 +56,9 @@ const projectsData = {
     },
     "uxia": {
         title: {
-            es: "Fichas UX-IA (Uxía) - Pensamiento Computacional (1º ciclo de EP)",
-            gl: "Fichas UX-IA (Uxía) - Pensamento Computacional (1º ciclo de EP)",
-            en: "UX-IA Worksheets (Uxía) - Computational Thinking (1st cycle PE)"
+            es: "Fichas UX-IA (Uxía) - Pensamiento Computacional (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            gl: "Fichas UX-IA (Uxía) - Pensamento Computacional (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            en: "UX-IA Worksheets (Uxía) - Computational Thinking (1st&nbsp;cycle&nbsp;PE)"
         },
         tag: "Innovación",
         iframeArr: [],
@@ -81,9 +81,9 @@ const projectsData = {
     },
     "lego-noel": {
         title: {
-            es: "Papá Noel y su reno motorizado – LEGO® SPIKE (3.º ciclo de EP)",
-            gl: "Papá Noel e o seu reno motorizado – LEGO® SPIKE (3.º ciclo de EP)",
-            en: "Santa and his motorized reindeer – LEGO® SPIKE (3rd cycle PE)"
+            es: "Papá Noel y su reno motorizado – LEGO® SPIKE (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            gl: "Papá Noel e o seu reno motorizado – LEGO® SPIKE (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            en: "Santa and his motorized reindeer – LEGO® SPIKE (3rd&nbsp;cycle&nbsp;PE)"
         },
         tag: "Robótica",
         iframeArr: [],
@@ -106,8 +106,8 @@ const projectsData = {
     },
     "super-maria": {
         title: {
-            es: "Super María – Arcade MakeCode (3.º ciclo de EP)",
-            gl: "Super María – Arcade MakeCode (3.º ciclo de EP)",
+            es: "Super María – Arcade MakeCode (3.º&nbsp;ciclo de EP)",
+            gl: "Super María – Arcade MakeCode (3.º&nbsp;ciclo de EP)",
             en: "Super María – Arcade MakeCode (3rd cycle PE)"
         },
         tag: "MakeCode Arcade",
@@ -131,9 +131,9 @@ const projectsData = {
     },
     "flappy-bird": {
         title: {
-            es: "Flappy Bird – Scratch (3.º ciclo de EP)",
-            gl: "Flappy Bird – Scratch (3.º ciclo de EP)",
-            en: "Flappy Bird – Scratch (3rd cycle PE)"
+            es: "Flappy Bird – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            gl: "Flappy Bird – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            en: "Flappy Bird – Scratch (3rd&nbsp;cycle&nbsp;PE)"
         },
         tag: "Scratch",
         iframeArr: ["https://scratch.mit.edu/projects/1235072996/embed"],
@@ -156,9 +156,9 @@ const projectsData = {
     },
     "meteoritos": {
         title: {
-            es: "Esquiva los meterotitos – Scratch (3.º ciclo de EP)",
-            gl: "Esquiva os meteoritos – Scratch (3.º ciclo de EP)",
-            en: "Dodge the Meteorites – Scratch (3rd cycle PE)"
+            es: "Esquiva los meteoritos – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            gl: "Esquiva os meteoritos – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
+            en: "Dodge the Meteorites – Scratch (3rd&nbsp;cycle&nbsp;PE)"
         },
         tag: "Scratch",
         iframeArr: ["https://scratch.mit.edu/projects/1235073502/embed"],
