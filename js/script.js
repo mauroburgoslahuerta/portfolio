@@ -246,6 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.changeLanguage = function (lang) {
     currentLang = lang;
+    document.documentElement.lang = lang; // Accessibility & SEO update
 
     // 1. Update Buttons State
     document.querySelectorAll('.lang-btn').forEach(btn => {
