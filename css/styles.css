@@ -334,17 +334,17 @@ section {
 }
 
 /* Toolkit Grid */
-.tools-grid {
+.toolkit-grid {
     display: flex;
     justify-content: center !important;
     /* Force centering */
     flex-wrap: wrap;
-    gap: 40px;
-    /* Improved spacing */
+    gap: 20px;
+    /* Reduced gap to fit all in one line */
     margin: 30px auto 30px auto;
     /* Center the block itself */
-    max-width: 1000px;
-    /* Prevent it from getting too wide */
+    max-width: 100%;
+    /* Allow full width so they don't wrap */
 }
 
 .tool-item {
@@ -376,7 +376,7 @@ section {
 
 /* Responsive Toolkit for Mobile */
 @media (max-width: 768px) {
-    .tools-grid {
+    .toolkit-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         /* Force 3 columns */
