@@ -333,6 +333,63 @@ section {
     text-shadow: 0 0 10px var(--accent);
 }
 
+/* Toolkit Grid */
+.tools-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* Spacing before About */
+}
+
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    /* Fixed width */
+    text-align: center;
+    cursor: default;
+    /* Not clickable */
+}
+
+.tool-item i {
+    font-size: 2.5rem;
+    transition: transform 0.3s ease;
+}
+
+.tool-item:hover i {
+    transform: scale(1.2);
+    /* Icon pop is fine, but no background */
+}
+
+.tool-item span {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* Responsive Toolkit for Mobile */
+@media (max-width: 768px) {
+    .tools-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* Force 3 columns */
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .tool-item {
+        width: auto;
+    }
+
+    .tool-item i {
+        font-size: 2rem;
+    }
+}
+
 /* About Section */
 .about {
     padding-top: 6rem !important;
@@ -390,6 +447,13 @@ strong {
     align-items: center;
     gap: 10px;
     font-weight: 500;
+    background: transparent !important;
+    /* Ensure no background */
+    cursor: default !important;
+    /* Ensure no pointer */
+    padding: 0;
+    /* Remove any padding that makes it look button-like */
+    border: none !important;
 }
 
 .skills-list i {
