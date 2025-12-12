@@ -77,7 +77,7 @@ const projectsData = {
             gl: "Segue as frechas e completa o percorrido para chegar á meta.",
             en: "Follow the arrows and complete the path to reach the goal."
         },
-        link: "https://drive.google.com/file/d/1uPUpHjmnQdD-AqS6FyG350FADFJA-4P2/view?usp=sharing"
+        link: "https://drive.google.com/file/d/17lW6UsIxhoV4hEMmJIJuxkmCke_47_L8/view?usp=sharing"
     },
     "lego-noel": {
         title: {
@@ -417,4 +417,20 @@ window.openModal = function (projectId) {
         console.error("Error in openModal:", error);
         alert("Error al abrir el proyecto: " + error.message);
     }
+};
+
+window.closeModal = function () {
+    console.log("Attempting to close modal...");
+    const m = document.getElementById('project-modal');
+    if (!m) {
+        console.error("Modal not found in DOM during close attempt.");
+        return;
+    }
+
+    m.classList.remove("show");
+    setTimeout(() => {
+        m.style.display = "none";
+        const iframe = document.getElementById('modal-iframe');
+        if (iframe) iframe.src = "";
+    }, 300);
 };
