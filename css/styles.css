@@ -827,6 +827,37 @@ footer {
    ========================================= */
 @media (max-width: 768px) {
 
+    /* Mobile Navigation */
+    .hamburger {
+        display: block;
+        z-index: 1200;
+    }
+
+    .nav-links {
+        position: fixed;
+        background: rgba(10, 10, 20, 0.95);
+        backdrop-filter: blur(15px);
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 1100;
+        gap: 3rem;
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+    }
+
+    .nav-links li a {
+        font-size: 1.5rem;
+    }
+
     /* Hero Section Fixes */
     .hero {
         padding-top: 120px;
@@ -876,11 +907,5 @@ footer {
     .contact-container {
         flex-direction: column;
         gap: 30px;
-    }
-
-    /* Navbar Mobile */
-    .nav-links {
-        width: 100%;
-        text-align: center;
     }
 }
