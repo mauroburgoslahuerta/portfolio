@@ -336,12 +336,15 @@ section {
 /* Toolkit Grid */
 .tools-grid {
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
+    /* Force centering */
     flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    /* Spacing before About */
+    gap: 40px;
+    /* Improved spacing */
+    margin: 30px auto 30px auto;
+    /* Center the block itself */
+    max-width: 1000px;
+    /* Prevent it from getting too wide */
 }
 
 .tool-item {
