@@ -431,19 +431,15 @@ strong {
 /* Skills list styles unchanged */
 
 .skills-list {
-    margin: 40px auto;
+    margin: 30px auto 0 auto;
     /* Center the list block */
-    max-width: 800px;
-    /* Keep it wider to separate columns */
+    max-width: 600px;
+    /* Keep it tight */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Two equal columns */
-    column-gap: 60px;
-    /* Big gap to push them apart */
-    row-gap: 20px;
+    gap: 15px;
     text-align: left;
     /* Keep individual items readable */
-    justify-content: center;
 }
 
 .skills-list li {
