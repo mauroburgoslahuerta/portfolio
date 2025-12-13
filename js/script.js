@@ -354,7 +354,7 @@ window.openModal = function (projectId) {
         }
 
         // Use currentLang for content
-        document.getElementById('modal-title').innerText = project.title[currentLang] || project.title['es'];
+        document.getElementById('modal-title').innerHTML = project.title[currentLang] || project.title['es'];
         document.getElementById('modal-tag').innerText = project.tag;
         document.getElementById('modal-tag').className = `tag ${project.tag.toLowerCase().split(' ')[0]}`;
 
