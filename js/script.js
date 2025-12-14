@@ -435,3 +435,69 @@ window.closeModal = function () {
         if (iframe) iframe.src = "";
     }, 300);
 };
+
+// Phone Reveal Function
+window.revealPhone = function (container) {
+    const mask = container.querySelector('.phone-mask');
+    const number = container.querySelector('.phone-number');
+
+    if (mask && number) {
+        mask.style.display = 'none';
+        number.classList.remove('hidden');
+    }
+};
+
+// Back to Top and Filters Initialization (Safe Guarded)
+document.addEventListener('DOMContentLoaded', () => {
+    // Back to Top Logic
+    const backToTopBtn = document.getElementById('back-to-top');
+    if (backToTopBtn) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+    // Project Filtering Logic
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    if (filterBtns.length > 0) {
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active to clicked
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    const category = card.getAttribute('data-category');
+
+                    if (filterValue === 'all' || category === filterValue) {
+                        card.classList.remove('hidden');
+                        setTimeout(() => {
+                            card.classList.remove('fade-out');
+                        }, 10);
+                    } else {
+                        card.classList.add('fade-out');
+                        setTimeout(() => {
+                            card.classList.add('hidden');
+                        }, 300);
+                    }
+                });
+            });
+        });
+    }
+});
