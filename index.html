@@ -2,445 +2,50 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mauro Burgos | Educación & Tecnología</title>
-    <meta name="description"
-        content="Portfolio de Mauro Burgos Lahuerta. Graduado en Educación Primaria y Docente especializado en Robótica, Programación y Metodologías Activas.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Mauro Burgos | Educación & Tecnología">
-    <meta property="og:description"
-        content="Portfolio de Mauro Burgos Lahuerta. Graduado en Educación Primaria y Docente especializado en Robótica, Programación y Metodologías Activas.">
-    <meta property="og:image"
-        content="https://mauroburgoslahuerta.github.io/portfolio/assets/images/social_preview.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css?v=6">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Favicon & WebClip -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png?v=2">
-    <link rel="apple-touch-icon" href="assets/images/favicon.png?v=2">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AventurIA</title>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJD3G6DV33"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2949Z722WF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-2949Z722WF');
+  </script>
 
-        gtag('config', 'G-CJD3G6DV33');
-    </script>
+  <link rel="icon" type="image/png" href="/favicon.png?v=3" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aventuria.vercel.app/">
+  <meta property="og:title" content="AventurIA">
+  <meta property="og:description" content="Crea retos educativos interactivos en segundos">
+  <meta property="og:image" content="https://aventuria.vercel.app/og-image.png?v=3">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://aventuria.vercel.app/">
+  <meta property="twitter:title" content="AventurIA">
+  <meta property="twitter:description" content="Crea retos educativos interactivos en segundos">
+  <meta property="twitter:image" content="https://aventuria.vercel.app/og-image.png?v=3">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
 
 <body>
-
-    <header id="navbar">
-        <nav class="container">
-            <a href="#inicio" class="nav-logo">
-                <img src="assets/images/logo-nav.png" alt="Logo Mauro Burgos">
-            </a>
-
-            <div class="nav-right-container" style="display: flex; align-items: center; gap: 20px;">
-                <ul class="nav-links">
-                    <li><a href="#inicio" data-i18n="nav-home">Inicio</a></li>
-                    <li><a href="#sobre-mi" data-i18n="nav-about">Sobre mí</a></li>
-                    <li><a href="#proyectos" data-i18n="nav-projects">Proyectos</a></li>
-                    <li><a href="#contacto" data-i18n="nav-contact">Contacto</a></li>
-                </ul>
-
-                <!-- Language Selector -->
-                <div class="lang-selector"
-                    style="display: flex; gap: 10px; font-weight: 600; font-size: 0.9rem; align-items: center;">
-                    <span class="lang-label" style="opacity: 0.7; margin-right: 5px;"><i
-                            class="fas fa-globe"></i></span>
-                    <button onclick="changeLanguage('es')" class="lang-btn active" data-lang="es"
-                        style="background:none; border:none;  padding:0; cursor:pointer; color: var(--text-primary); opacity: 1;">ES</button>
-                    <span style="opacity: 0.3;">|</span>
-                    <button onclick="changeLanguage('gl')" class="lang-btn" data-lang="gl"
-                        style="background:none; border:none;  padding:0; cursor:pointer; color: var(--text-primary); opacity: 0.5;">GL</button>
-                    <span style="opacity: 0.3;">|</span>
-                    <button onclick="changeLanguage('en')" class="lang-btn" data-lang="en"
-                        style="background:none; border:none;  padding:0; cursor:pointer; color: var(--text-primary); opacity: 0.5;">EN</button>
-                </div>
-
-                <div class="hamburger" role="button" aria-label="Abrir menú de navegación" tabindex="0">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="inicio" class="hero fade-in">
-        <div class="container hero-content">
-            <img src="assets/images/brain.png" class="hero-brain" alt="Brain Icon">
-            <h1 data-i18n="hero-h1">Mauro Burgos</h1>
-            <h2 class="typing-effect"><span data-i18n="hero-subtitle-prefix">Docente de</span> <span
-                    id="typewriter"></span></h2>
-            <p class="hero-text fade-in" data-i18n="hero-text">Transformando la educación a través de la innovación,
-                la robótica y el
-                pensamiento computacional.</p>
-            <div class="cta-buttons">
-                <a href="#proyectos" class="btn primary"><span data-i18n="btn-view-projects">Ver Proyectos</span> <i
-                        class="fas fa-arrow-down"></i></a>
-                <a href="#contacto" class="btn secondary" data-i18n="btn-contact">Contactar</a>
-            </div>
-        </div>
-
-        <!-- Toolkit Strip -->
-        <div class="toolkit">
-            <div class="container">
-                <div class="toolkit-grid">
-                    <div class="tool-item">
-                        <i class="fas fa-cube" style="color: #ffeb3b;"></i>
-                        <span>LEGO Education</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-microchip" style="color: #00e676;"></i>
-                        <span>Micro:bit</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-cat" style="color: #ffab91;"></i>
-                        <span>Scratch</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-gamepad" style="color: #b388ff;"></i>
-                        <span>MakeCode</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-leaf" style="color: #81c784;"></i>
-                        <span>Kodu</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-palette" style="color: #29b6f6;"></i>
-                        <span>Canva</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-shapes" style="color: #ff7043;"></i>
-                        <span>Tinkercad</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-brain" style="color: #e1bee7;"></i>
-                        <span>IA Gen</span>
-                    </div>
-                    <div class="tool-item">
-                        <i class="fas fa-cut" style="color: #ffffff;"></i>
-                        <span>CapCut</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="sobre-mi" class="about fade-in">
-        <div class="container">
-            <h2 class="section-title" data-i18n="about-title">Sobre Mí</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p data-i18n="about-p1">Soy <strong>Graduado en Educación Primaria</strong>. Aprovecho el interés
-                        natural del alumnado por la tecnología para potenciar su motivación y lograr un aprendizaje
-                        significativo.</p>
-                    <p data-i18n="about-p2">A través de la <strong>Robótica y la Programación</strong>, trabajamos
-                        competencias clave como el pensamiento lógico, el trabajo en equipo, la creatividad y la
-                        autonomía.</p>
-                    <ul class="skills-list">
-                        <li><i class="fas fa-robot"></i> <span data-i18n="skill-2">Robótica Educativa</span></li>
-                        <li><i class="fas fa-lightbulb"></i> <span data-i18n="skill-3">Innovación Pedagógica</span>
-                        </li>
-                        <li><i class="fas fa-brain"></i> <span data-i18n="skill-4">Pensamiento
-                                Computacional</span></li>
-                        <li><i class="fas fa-puzzle-piece"></i> <span data-i18n="skill-5">Metodologías Activas e
-                                Inclusivas</span></li>
-                        <li><i class="fas fa-users"></i> <span data-i18n="skill-6">Trabajo en Equipo</span></li>
-                        <li><i class="fas fa-running"></i> <span data-i18n="skill-1">Educación Física</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="proyectos" class="projects fade-in">
-        <div class="container">
-            <h2 class="section-title" data-i18n="projects-title">Proyectos Destacados</h2>
-
-            <!-- Project Filters -->
-            <div class="project-filters"
-                style="margin-bottom: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-                <button class="filter-btn active" data-filter="all" data-i18n="filter-all">Todos</button>
-                <button class="filter-btn scratch" data-filter="scratch">Scratch</button>
-                <button class="filter-btn makecode" data-filter="makecode">MakeCode</button>
-                <button class="filter-btn robotics" data-filter="robotics" data-i18n="filter-robotics">Robótica</button>
-                <button class="filter-btn resources" data-filter="resources"
-                    data-i18n="filter-resources">Recursos</button>
-            </div>
-
-            <div class="projects-grid">
-                <!-- Project 1: Scratch (Embed) -->
-                <!-- Project 1: Scratch (Embed) -->
-                <article class="project-card" data-category="scratch" onclick="window.openModal('pilla-al-pez')">
-                    <div class="project-media">
-                        <img src="assets/images/shark_preview.png" alt="Pilla al pez Scratch" loading="lazy"
-                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-                    </div>
-                    <div class="project-content">
-                        <span class="tag scratch">Scratch</span>
-                        <!-- Title/Desc dynamic via JS -->
-                        <h3 data-project-title="pilla-al-pez">Pilla al pez – Scratch (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)
-                        </h3>
-                        <p data-project-desc="pilla-al-pez">Proyecto de introducción a la programación por bloques donde
-                            un tiburón debe atrapar a un pez
-                            en movimiento.</p>
-                        <button class="btn-link"
-                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
-                            <span data-i18n="btn-card-play">Ver Ficha Didáctica / Jugar</span> <i
-                                class="fas fa-gamepad"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- Project 2: Makecode -->
-                <!-- Project 2: Makecode -->
-                <article class="project-card" data-category="makecode" onclick="window.openModal('makecode')">
-                    <div class="project-media">
-                        <img src="assets/images/laberinto_preview.png" alt="Laberinto Arcade Screenshot" loading="lazy"
-                            style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <div class="project-content">
-                        <span class="tag makecode">MakeCode Arcade</span>
-                        <h3 data-project-title="makecode">Laberinto - Arcade Makecode (2.º&nbsp;ciclo&nbsp;de&nbsp;EP)
-                        </h3>
-                        <p data-project-desc="makecode">Videojuego tipo laberinto diseñado desde cero donde el objetivo
-                            es encontrar el cofre del
-                            tesoro.</p>
-                        <button class="btn-link"
-                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
-                            <span data-i18n="btn-card-play">Ver Ficha Didáctica / Jugar</span> <i
-                                class="fas fa-gamepad"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- Project 3: UX-IA -->
-                <!-- Project 3: UX-IA -->
-                <article class="project-card" data-category="resources" onclick="window.openModal('uxia')">
-                    <div class="project-media">
-                        <img src="assets/images/uxia_preview.png" alt="Fichas UX-IA Preview" loading="lazy"
-                            style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
-                    </div>
-                    <div class="project-content">
-                        <span class="tag resources">Recursos</span>
-                        <h3 data-project-title="uxia">Fichas UX-IA (Uxía) - Pensamiento Computacional
-                            (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)
-                        </h3>
-                        <p data-project-desc="uxia">Recurso de fichas progresivas para trabajar lógica y pensamiento
-                            computacional de forma
-                            visual.</p>
-                        <button class="btn-link"
-                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
-                            <span data-i18n="btn-card-view">Ver Ficha Didáctica</span> <i class="fas fa-book-open"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- Project 4: LEGO Spike -->
-                <!-- Project 4: LEGO Spike -->
-                <article class="project-card" data-category="robotics" onclick="window.openModal('lego-noel')">
-                    <div class="project-media">
-                        <img src="assets/images/lego_preview.png" alt="Papá Noel LEGO Spike" loading="lazy"
-                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-                    </div>
-                    <div class="project-content">
-                        <span class="tag robotics">Robótica</span>
-                        <h3 data-project-title="lego-noel">Papá Noel y su reno motorizado – LEGO® SPIKE
-                            (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)
-                        </h3>
-                        <p data-project-desc="lego-noel">Construcción y programación de un modelo motorizado navideño
-                            con LEGO Spike Essential.</p>
-                        <button class="btn-link"
-                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
-                            <span data-i18n="btn-card-view">Ver Ficha Didáctica</span> <i class="fas fa-hammer"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- Project 5: Super María -->
-                <!-- Project 5: Super María -->
-                <article class="project-card" data-category="makecode" onclick="window.openModal('super-maria')">
-                    <div class="project-media">
-                        <img src="assets/images/supermaria_preview.png" alt="Super María MakeCode" loading="lazy"
-                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-                    </div>
-                    <div class="project-content">
-                        <span class="tag makecode">MakeCode Arcade</span>
-                        <h3 data-project-title="super-maria">Super María – Arcade MakeCode
-                            (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)</h3>
-                        <p data-project-desc="super-maria">Videojuego de plataformas con desplazamiento lateral, saltos
-                            y enemigos.</p>
-                        <button class="btn-link"
-                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
-                            <span data-i18n="btn-card-play">Ver Ficha Didáctica / Jugar</span> <i
-                                class="fas fa-gamepad"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- Project 6: Flappy Bird -->
-                <!-- Project 6: Flappy Bird -->
-                <article class="project-card" data-category="scratch" onclick="window.openModal('flappy-bird')">
-                    <div class="project-media">
-                        <img src="assets/images/flappy_preview.png" alt="Flappy Bird Scratch" loading="lazy"
-                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-                    </div>
-                    <div class="project-content">
-                        <span class="tag scratch">Scratch</span>
-                        <h3 data-project-title="flappy-bird">Flappy Bird – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)</h3>
-                        <p data-project-desc="flappy-bird">Recreación del clásico videojuego trabajando gravedad,
-                            eventos y colisiones.</p>
-                        <button class="btn-link"
-                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
-                            <span data-i18n="btn-card-play">Ver Ficha Didáctica / Jugar</span> <i
-                                class="fas fa-gamepad"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- Project 7: Meteoritos -->
-                <!-- Project 7: Meteoritos -->
-                <article class="project-card" data-category="scratch" onclick="window.openModal('meteoritos')">
-                    <div class="project-media">
-                        <img src="assets/images/meteoritos_preview.png" loading="lazy"
-                            alt="Esquiva los meteoritos – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)"
-                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-                    </div>
-                    <div class="project-content">
-                        <span class="tag scratch">Scratch</span>
-                        <h3 data-project-title="meteoritos">Esquiva los meteoritos – Scratch
-                            (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)</h3>
-                        <p data-project-desc="meteoritos">Juego arcade controlado con ratón donde una nave esquiva
-                            objetos a distintas velocidades.</p>
-                        <button class="btn-link"
-                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
-                            <span data-i18n="btn-card-play">Ver Ficha Didáctica / Jugar</span> <i
-                                class="fas fa-gamepad"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- Coming Soon Card -->
-                <article class="project-card coming-soon"
-                    style="border: 2px dashed rgba(255,255,255,0.2); background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: auto; min-height: 400px;">
-                    <div style="font-size: 3rem; color: rgba(255,255,255,0.3); margin-bottom: 1rem;">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3 style="color: rgba(255,255,255,0.5);" data-i18n="construction-title">Próximamente</h3>
-                    <p style="color: rgba(255,255,255,0.4); max-width: 80%;" data-i18n="construction-text">Sigo
-                        trabajando para subir más
-                        proyectos y recursos educativos...</p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <section id="contacto" class="contact fade-in">
-        <div class="container">
-            <h2 class="section-title" data-i18n="contact-title">Hablemos</h2>
-            <div class="contact-wrapper">
-                <div class="contact-info">
-
-                    <div class="info-item">
-                        <a href="mailto:mauroburgoslahuerta@gmail.com" class="icon-link" aria-label="Enviar correo">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <p>mauroburgoslahuerta@gmail.com</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone clickable-icon" onclick="revealPhone(this.nextElementSibling)"
-                            style="cursor: pointer;" title="Ver teléfono"></i>
-                        <div class="phone-container" onclick="revealPhone(this)">
-                            <span class="phone-mask" data-i18n="btn-phone-reveal">Ver Teléfono</span>
-                            <span class="phone-number hidden">+34 667 910 333</span>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <a href="https://drive.google.com/file/d/1CL2Wl2IGebRdlbwh_ySRo9X-FaOzh4RB/view?usp=sharing"
-                            target="_blank" class="icon-link" aria-label="Ver CV">
-                            <i class="fas fa-file-pdf"></i>
-                        </a>
-                        <a href="https://drive.google.com/file/d/1CL2Wl2IGebRdlbwh_ySRo9X-FaOzh4RB/view?usp=sharing"
-                            target="_blank" data-i18n="btn-cv">Ver CV Completo</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <img src="assets/images/logo-nav.png" alt="Mauro Burgos Logo" class="footer-logo">
-            <p data-i18n="footer-rights">&copy; 2025 Mauro Burgos Lahuerta.</p>
-            <div class="social-links">
-                <a href="https://github.com/mauro-burgos" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/mauro-burgos-lahuerta-b77435328" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-                <!-- Twitter removed as requested -->
-            </div>
-        </div>
-    </footer>
-
-    <!-- Didactic Sheet Modal -->
-    <div id="project-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-modal" role="button" aria-label="Cerrar ventana modal" tabindex="0"
-                onclick="closeModal()">&times;</span>
-            <div class="modal-header">
-                <span id="modal-tag" class="tag"></span>
-                <h2 id="modal-title">Título del Proyecto</h2>
-            </div>
-            <div class="modal-body">
-                <div id="modal-game-container" class="game-container" style="display:none; margin-bottom: 20px;">
-                    <iframe id="modal-iframe" src="" frameborder="0" width="100%" height="400" allowfullscreen
-                        sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
-                </div>
-                <!-- Gallery container removed as not used/populated yet, but keeping structure clean -->
-
-                <div class="modal-section">
-                    <h3><i class="fas fa-info-circle"></i> Descripción</h3>
-                    <p id="modal-desc">Descripción del proyecto...</p>
-                </div>
-
-                <div class="modal-grid">
-                    <div class="modal-section">
-                        <h3><i class="fas fa-list-check"></i> Objetivos Didácticos</h3>
-                        <ul id="modal-objectives" class="modal-list">
-                            <!-- Populated by JS -->
-                        </ul>
-                    </div>
-                    <div class="modal-section">
-                        <h3><i class="fas fa-gamepad"></i> Instrucciones</h3>
-                        <p id="modal-instructions">Instrucciones...</p>
-                    </div>
-                </div>
-
-                <div class="modal-footer">
-                    <a id="modal-link" href="#" target="_blank" class="btn primary">Ver en Scratch <i
-                            class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Translations JS -->
-    <script src="js/translations.js?v=6"></script>
-    <!-- Main Script -->
-    <!-- Back to Top Button -->
-    <button id="back-to-top" title="Volver arriba">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <!-- Main Script (Loaded last) -->
-    <script src="js/script.js?v=6"></script>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
 </body>
 
 </html>
