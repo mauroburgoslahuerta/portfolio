@@ -4,6 +4,62 @@ let currentLang = 'es'; // Default language
 
 // 3. Multi-language Projects Data
 const projectsData = {
+    "aventuria-app": {
+        title: {
+            es: "AventurIA - Plataforma Educativa con IA Generativa",
+            gl: "AventurIA - Plataforma Educativa con IA Xenerativa",
+            en: "AventurIA - Educational Platform with Generative AI"
+        },
+        tag: "IA",
+        iframeArr: [], // No iframe for the main app, just image
+        shortDesc: {
+            es: "Plataforma de desarrollo propio que transforma cualquier tema en una aventura educativa interactiva en segundos.",
+            gl: "Plataforma de desenvolvemento propio que transforma calquera tema nunha aventura educativa interactiva en segundos.",
+            en: "Self-developed platform that transforms any topic into an interactive educational adventure in seconds."
+        },
+        desc: {
+            es: "<strong>AventurIA</strong> convierte cualquier tema en una <strong>aventura gráfica interactiva</strong>. Una plataforma de autoría visual donde <strong>tú eres el arquitecto y la IA es solo tu asistente</strong>.<br><br><strong>Filosofía y Mecánicas:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #F4C430;'><strong style='display:block; margin-bottom:4px;'>✨ Control de Edición</strong>El usuario mantiene el control absoluto. Revisión y pulido en tiempo real (Edición Viva).</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #9C27B0;'><strong style='display:block; margin-bottom:4px;'>🧠 Pedagogía Invisible</strong>Integración de la <strong>Taxonomía de Bloom</strong>. Ajuste automático de complejidad y vocabulario.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #2196F3;'><strong style='display:block; margin-bottom:4px;'>🛡️ Reformulación Pedagógica</strong>Los temas sensibles no se bloquean, se recontextualizan educativamente.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #4CAF50;'><strong style='display:block; margin-bottom:4px;'>📈 Puntuación Dual</strong>Registro de nota del primer intento vs último para un control total por parte del docente.</div></div>",
+            gl: "<strong>AventurIA</strong> converte calquera tema nunha <strong>aventura gráfica interactiva</strong>. Unha plataforma de autoría visual onde <strong>ti es o arquitecto e a IA é só o teu asistente</strong>.<br><br><strong>Filosofía e Mecánicas:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #F4C430;'><strong style='display:block; margin-bottom:4px;'>✨ Control de Edición</strong>O usuario mantén o control absoluto. Revisión e pulido en tempo real (Edición Viva).</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #9C27B0;'><strong style='display:block; margin-bottom:4px;'>🧠 Pedagoxía Invisible</strong>Integración da <strong>Taxonomía de Bloom</strong>. Axuste automático de complexidade e vocabulario.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #2196F3;'><strong style='display:block; margin-bottom:4px;'>🛡️ Reformulación Pedagóxica</strong>Os temas sensibles non se bloquean, recontextualízanse educativamente.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #4CAF50;'><strong style='display:block; margin-bottom:4px;'>📈 Puntuación Dual</strong>Rexistro de nota do primeiro intento (coñecemento) vs último (perseveranza).</div></div>",
+            en: "<strong>AventurIA</strong> turns any topic into an <strong>interactive graphic adventure</strong>. A visual authoring platform where <strong>you are the architect and AI is just your assistant</strong>.<br><br><strong>Philosophy & Mechanics:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #F4C430;'><strong style='display:block; margin-bottom:4px;'>✨ Control of Edition</strong>User maintains absolute control. Real-time review and polishing (Live Editing).</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #9C27B0;'><strong style='display:block; margin-bottom:4px;'>🧠 Invisible Pedagogy</strong>Integration of <strong>Bloom's Taxonomy</strong>. Automatic adjustment of complexity and vocabulary.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #2196F3;'><strong style='display:block; margin-bottom:4px;'>🛡️ Pedagogical Reframing</strong>Sensitive topics are not blocked, they are recontextualized educationally.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border-left: 4px solid #4CAF50;'><strong style='display:block; margin-bottom:4px;'>📈 Dual Scoring</strong>Record of first attempt score (knowledge) vs last (perseverance).</div></div>"
+        },
+        objectives: {
+            es: ["Personalización masiva del aprendizaje", "Generación de contenido en tiempo real", "Feedback inmediato para el alumnado", "Gamificación sin barreras de entrada (Modo Invitado)", "Analíticas de desempeño"],
+            gl: ["Personalización masiva da aprendizaxe", "Xeración de contido en tempo real", "Feedback inmediato para o alumnado", "Gamificación sen barreiras de entrada (Modo Invitado)", "Analíticas de desempeño"],
+            en: ["Massive learning personalization", "Real-time content generation", "Immediate feedback for students", "Gamification with no entry barriers (Guest Mode)", "Performance analytics"]
+        },
+        instructions: {
+            es: "1. Introduce un tema y la edad. <br>2. La IA genera un borrador que puedes <strong>editar y pulir al 100%</strong>. <br>3. Comparte el enlace y analiza la evolución (nota inicial vs final) de tus alumnos.",
+            gl: "1. Introduce un tema e a idade. <br>2. A IA xera un borrador que podes <strong>editar e pulir ao 100%</strong>. <br>3. Comparte a ligazón e analiza a evolución (nota inicial vs final) dos teus alumnos.",
+            en: "1. Enter a topic and age. <br>2. AI generates a draft you can <strong>edit and polish 100%</strong>. <br>3. Share the link and analyze your students' evolution (initial vs final score)."
+        },
+        link: "https://aventuria.vercel.app/"
+    },
+    "aventuria-example": {
+        title: {
+            es: "AventurIA - Pensamiento Computacional (4.º EP)",
+            gl: "AventurIA - Pensamento Computacional (4.º EP)",
+            en: "AventurIA - Computational Thinking (4th Grade)"
+        },
+        tag: "IA",
+        iframeArr: [],
+        innerImage: "assets/images/aventuria_ct_game.png",
+        desc: {
+            es: "Recurso educativo hecho con la plataforma <strong>AventurIA (de creación propia)</strong> para trabajar el Pensamiento Computacional en 4.º de Primaria. Generé la estructura base con mi herramienta y <strong>revisé cada detalle al 100%</strong>, asegurando un contenido pedagógico de máxima calidad y totalmente adaptado a mis alumnos.",
+            gl: "Recurso educativo feito coa plataforma <strong>AventurIA (de creación propia)</strong> para traballar o Pensamento Computacional en 4.º de Primaria. Xerei a estrutura base coa miña ferramenta e <strong>revisei cada detalle ao 100%</strong>, asegurando un contido pedagóxico de máxima calidade e totalmente adaptado aos meus alumnos.",
+            en: "Educational resource made with the <strong>AventurIA platform (my own creation)</strong> to work on Computational Thinking in 4th Grade. I generated the base structure with my tool and <strong>reviewed every detail 100%</strong>, ensuring maximum pedagogical quality content fully adapted to my students."
+        },
+        objectives: {
+            es: ["Identificar patrones lógicos", "Comprender secuencias de algoritmos", "Resolución de problemas computacionales", "Aprendizaje autónomo gamificado"],
+            gl: ["Identificar patróns lóxicos", "Comprender secuencias de algoritmos", "Resolución de problemas computacionais", "Aprendizaxe autónoma gamificada"],
+            en: ["Identify logical patterns", "Understand algorithm sequences", "Computational problem solving", "Gamified autonomous learning"]
+        },
+        instructions: {
+            es: "Haz clic en 'Jugar' para experimentar una aventura real tal como la verían tus alumnos.",
+            gl: "Fai clic en 'Xogar' para experimentar unha aventura real tal como a verían os teus alumnos.",
+            en: "Click 'Play' to experience a real adventure just as your students would see it."
+        },
+        link: "https://aventuria.vercel.app/?id=7f27b66a-900d-439b-bc8c-a2e3a1f21fb1"
+    },
     "pilla-al-pez": {
         title: {
             es: "Pilla al pez – Scratch (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)",
@@ -278,7 +334,9 @@ window.changeLanguage = function (lang) {
     document.querySelectorAll('[data-project-desc]').forEach(el => {
         const pId = el.getAttribute('data-project-desc');
         if (projectsData[pId]) {
-            el.innerText = projectsData[pId].desc[lang];
+            // Prefer shortDesc for cards if available, otherwise use desc
+            const descObj = projectsData[pId].shortDesc ? projectsData[pId].shortDesc : projectsData[pId].desc;
+            el.innerText = descObj[lang];
         }
     });
 
@@ -358,21 +416,32 @@ window.openModal = function (projectId) {
         document.getElementById('modal-tag').innerText = project.tag;
         document.getElementById('modal-tag').className = `tag ${project.tag.toLowerCase().split(' ')[0]}`;
 
-        // Iframe
+        // Media Logic (Iframe or Image)
         const container = document.getElementById('modal-game-container');
         const iframe = document.getElementById('modal-iframe');
+        const modalImg = document.getElementById('modal-image');
+
+        // Reset
+        iframe.style.display = 'none';
+        modalImg.style.display = 'none';
+        iframe.src = "";
+        modalImg.src = "";
 
         if (project.iframeArr && project.iframeArr.length > 0) {
             iframe.src = project.iframeArr[0];
+            iframe.style.display = 'block';
+            container.style.display = 'block';
+        } else if (project.innerImage) {
+            modalImg.src = project.innerImage;
+            modalImg.style.display = 'block';
             container.style.display = 'block';
         } else {
             container.style.display = 'none';
-            iframe.src = "";
         }
 
         // Text Content
-        document.getElementById('modal-desc').innerText = project.desc[currentLang] || project.desc['es'];
-        document.getElementById('modal-instructions').innerText = project.instructions[currentLang] || project.instructions['es'];
+        document.getElementById('modal-desc').innerHTML = project.desc[currentLang] || project.desc['es'];
+        document.getElementById('modal-instructions').innerHTML = project.instructions[currentLang] || project.instructions['es'];
 
         // Button Logic
         const linkBtn = document.getElementById('modal-link');
@@ -391,7 +460,16 @@ window.openModal = function (projectId) {
 
             const prefix = currentLang === 'en' ? "View on " : (currentLang === 'gl' ? "Ver en " : "Ver en ");
 
-            if (projectId === 'uxia') {
+            // Custom logic for different tags
+            if (projectId === 'aventuria-app') {
+                const tryAppText = (t && t["btn-try-app"]) ? t["btn-try-app"] : "Probar App Web";
+                linkBtn.innerHTML = `${tryAppText} <i class="fas fa-rocket"></i>`;
+            } else if (project.tag === 'IA') {
+                // Use "Jugar"/"Xogar"/"Play" for IA projects without "Ver en" prefix if simpler, or keep consistency.
+                // User wants "Jugar".
+                const playText = (t && t["btn-play"]) ? t["btn-play"] : "Jugar";
+                linkBtn.innerHTML = `${playText} <i class="fas fa-rocket"></i>`;
+            } else if (projectId === 'uxia') {
                 linkBtn.innerHTML = `${prefix} PDF <i class="fas fa-file-pdf"></i>`;
             } else {
                 linkBtn.innerHTML = `${prefix} ${btnText} ${btnIcon}`;

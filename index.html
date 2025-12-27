@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css?v=6">
+    <link rel="stylesheet" href="css/styles.css?v=7">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Favicon & WebClip -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png?v=2">
@@ -173,9 +173,49 @@
                 <button class="filter-btn robotics" data-filter="robotics" data-i18n="filter-robotics">Robótica</button>
                 <button class="filter-btn resources" data-filter="resources"
                     data-i18n="filter-resources">Recursos</button>
+                <button class="filter-btn ia" data-filter="ia" data-i18n="filter-ia">IA Gen</button>
             </div>
 
             <div class="projects-grid">
+                <!-- Project: AventurIA App (Flagship) -->
+                <article class="project-card" data-category="ia" onclick="window.openModal('aventuria-app')">
+                    <div class="project-media">
+                        <img src="assets/images/aventuria_preview.png" alt="AventurIA App Preview" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag ia">IA Generativa</span>
+                        <h3 data-project-title="aventuria-app">AventurIA - Plataforma Educativa con IA</h3>
+                        <p data-project-desc="aventuria-app">Plataforma de desarrollo propio que transforma cualquier
+                            tema en una
+                            aventura educativa interactiva en segundos.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span data-i18n="btn-card-try">Ver Ficha Didáctica / Probar</span> <i
+                                class="fas fa-rocket"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project: AventurIA Example (Computational Thinking) -->
+                <article class="project-card" data-category="ia" onclick="window.openModal('aventuria-example')">
+                    <div class="project-media">
+                        <!-- Reusing the preview or a game screenshot if available. Using same for visual consistency unless user provides another -->
+                        <img src="assets/images/aventuria_ct_start.png" alt="AventurIA Example" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag ia">IA Generativa</span>
+                        <h3 data-project-title="aventuria-example">AventurIA - Pensamiento Computacional (4.º EP)</h3>
+                        <p data-project-desc="aventuria-example">Recurso educativo hecho con la plataforma AventurIA (de
+                            creación propia) para trabajar el Pensamiento Computacional en 4.º de Primaria.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span data-i18n="btn-card-play">Ver Ficha Didáctica / Jugar</span> <i
+                                class="fas fa-rocket"></i>
+                        </button>
+                    </div>
+                </article>
                 <!-- Project 1: Scratch (Embed) -->
                 <!-- Project 1: Scratch (Embed) -->
                 <article class="project-card" data-category="scratch" onclick="window.openModal('pilla-al-pez')">
@@ -401,7 +441,10 @@
             <div class="modal-body">
                 <div id="modal-game-container" class="game-container" style="display:none; margin-bottom: 20px;">
                     <iframe id="modal-iframe" src="" frameborder="0" width="100%" height="400" allowfullscreen
-                        sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
+                        sandbox="allow-popups allow-forms allow-scripts allow-same-origin"
+                        style="display:none;"></iframe>
+                    <img id="modal-image" src="" alt="Project Preview"
+                        style="display:none; width: 100%; height: auto; border-radius: 8px;">
                 </div>
                 <!-- Gallery container removed as not used/populated yet, but keeping structure clean -->
 
@@ -432,7 +475,7 @@
     </div>
 
     <!-- Translations JS -->
-    <script src="js/translations.js?v=6"></script>
+    <script src="js/translations.js?v=36"></script>
     <!-- Main Script -->
     <!-- Back to Top Button -->
     <button id="back-to-top" title="Volver arriba">
@@ -440,7 +483,7 @@
     </button>
 
     <!-- Main Script (Loaded last) -->
-    <script src="js/script.js?v=6"></script>
+    <script src="js/script.js?v=36"></script>
 </body>
 
 </html>

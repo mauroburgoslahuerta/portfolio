@@ -581,6 +581,18 @@ strong {
     box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
 }
 
+.filter-btn.ia {
+    border-color: rgba(168, 85, 247, 0.5);
+    color: #a855f7;
+}
+
+.filter-btn.ia:hover,
+.filter-btn.ia.active {
+    background: rgba(168, 85, 247, 0.2);
+    border-color: #a855f7;
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.2);
+}
+
 .project-media {
     height: 250px;
     background-color: #334155;
@@ -649,6 +661,11 @@ strong {
 .tag.robotics {
     background-color: rgba(255, 87, 87, 0.2);
     color: #ff5757;
+}
+
+.tag.ia {
+    background-color: rgba(168, 85, 247, 0.2);
+    color: #a855f7;
 }
 
 .project-content h3 {

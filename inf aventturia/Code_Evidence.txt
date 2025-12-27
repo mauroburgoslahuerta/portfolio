@@ -1,0 +1,83 @@
+// --- EVIDENCE BUNDLE FOR NOTEBOOKLM ---
+// FILE: api/generate.ts (The AI 'Brain' & Prompt Logic)
+// This file proves the "Creative Reframing" and "Pedagogical Role" described in the Bible.
+
+export default async function handler(req, res) {
+    // ... setup code omitted for brevity ...
+    const prompt = `Actúa como un diseñador instruccional experto y profesor...
+    
+    Requisitos Pedagógicos:
+    1. Adapta el vocabulario y la complejidad a la audiencia...
+    2. Dificultad seleccionada: ${config.difficulty} (Taxonomía de Bloom)...
+    
+    Requisitos de Seguridad y Adaptación Visual:
+    1. CORRECCIÓN INTELIGENTE: Si el tema o la audiencia tienen erratas... CORRÍGELAS silenciosamente.
+    2. FILTRO ÉTICO (CRÍTICO):
+       - Temas INADECUADOS... NO uses el bloqueo estándar. REFORMULA hacia una vertiente educativa estricta.
+         (ej: "Violencia" -> "Resolución de Conflictos", "Robar" -> "Ética y Leyes")
+    
+    3. "visualPrompt": ANTI-SPOILER... Describe un PAISAJE o ESCENA GENÉRICA.`;
+    
+    // ... fetching logic omitted ...
+}
+
+// --------------------------------------------------------------------------------
+
+// FILE: hooks/useGameGen.ts (The Resilience Engine)
+// This file proves the "Triple Fallback Strategy" (Gemini -> Pollinations Flux -> Turbo).
+
+export const useGameGen = (...) => {
+    // ...
+    const fetchSmartImage = async (prompt, isRegen) => {
+         // TRIPLE FALLBACK LOGIC
+         // 1. Gemini 2.5 Flash Preview (Primary)
+         try {
+             // ... call Gemini ...
+         } catch (geminiError) {
+             console.error("Gemini failed. Switching to Pollinations.");
+             // 2. Pollinations FLUX (Fallback 1)
+             // 3. Pollinations TURBO (Fallback 2 - on Timeout)
+             attemptPollinations('flux');
+         }
+    };
+    // ...
+}
+
+// --------------------------------------------------------------------------------
+
+// FILE: types.ts (The Data Skeleton)
+// This defines the strict data model used by the application.
+
+export interface Adventure {
+    id: string;
+    topic: string;
+    audience: string;
+    // ...
+    config: GameConfig;
+    questions: Question[]; // JSONB in DB
+    user_id?: string; // Nullable for Guest Mode
+}
+
+export interface Question {
+    question: string;
+    options: string[];
+    correctIndex: number;
+    visualPrompt: string; // The prompt sent to image AI
+    explanation: string; // Pedagogical feedback
+}
+
+// --------------------------------------------------------------------------------
+
+// FILE: Database Schema (SQL Summary)
+// Proves the "Anonymous Permissions" logic.
+
+/*
+TABLE public.adventures
+  - user_id: uuid (NULLABLE) -> Allows Guest creation.
+
+POLICIES (Row Level Security):
+  - "Enable update for anon on ownerless": 
+     USING (user_id IS NULL) -> Allows guests to save images/updates to their own session.
+  - "Enable read access for all users": 
+     USING (true) -> Allows viral sharing.
+*/
