@@ -36,7 +36,8 @@ window.translations = {
         "btn-try": "Probar",
         "btn-try-app": "Probar App Web",
         "btn-card-view": "Ver Ficha Didáctica",
-        "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta."
+        "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta.",
+        "featured-tag": "Destacado"
     },
     gl: {
         "nav-home": "Inicio",
@@ -75,7 +76,8 @@ window.translations = {
         "btn-try": "Probar",
         "btn-try-app": "Probar App Web",
         "btn-card-view": "Ver Ficha Didáctica",
-        "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta."
+        "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta.",
+        "featured-tag": "Destacado"
     },
     en: {
         "nav-home": "Home",
@@ -114,6 +116,7 @@ window.translations = {
         "btn-try": "Try",
         "btn-try-app": "Try Web App",
         "btn-card-view": "View Didactic Sheet",
-        "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta."
+        "footer-rights": "&copy; 2025 Mauro Burgos Lahuerta.",
+        "featured-tag": "Featured"
     }
 };

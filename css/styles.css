@@ -501,6 +501,46 @@ strong {
     display: none;
 }
 
+/* Featured / Flagship Card Style */
+.project-card.featured {
+    border-color: #fbbf24;
+    box-shadow: 0 0 25px rgba(251, 191, 36, 0.15);
+    background: linear-gradient(145deg, #1e293b, #2a2d40);
+    position: relative;
+    z-index: 1;
+}
+
+.project-card.featured:hover {
+    border-color: #fbbf24;
+    box-shadow: 0 0 35px rgba(251, 191, 36, 0.3);
+    transform: translateY(-5px);
+}
+
+.featured-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: linear-gradient(135deg, #fbbf24, #d97706);
+    color: #0f172a;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.featured-badge i {
+    font-size: 0.8rem;
+    color: #0f172a;
+}
+
 /* Filter Buttons */
 .project-filters {
     margin-bottom: 30px;

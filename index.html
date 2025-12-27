@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css?v=7">
+    <link rel="stylesheet" href="css/styles.css?v=9">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Favicon & WebClip -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png?v=2">
@@ -177,7 +177,10 @@
 
             <div class="projects-grid">
                 <!-- Project: AventurIA App (Flagship) -->
-                <article class="project-card" data-category="ia" onclick="window.openModal('aventuria-app')">
+                <article class="project-card featured" data-category="ia" onclick="window.openModal('aventuria-app')">
+                    <div class="featured-badge">
+                        <i class="fas fa-star"></i> <span data-i18n="featured-tag">Destacado</span>
+                    </div>
                     <div class="project-media">
                         <img src="assets/images/aventuria_preview.png" alt="AventurIA App Preview" loading="lazy"
                             style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
@@ -464,7 +467,7 @@
     </div>
 
     <!-- Translations JS -->
-    <script src="js/translations.js?v=40"></script>
+    <script src="js/translations.js?v=42"></script>
     <!-- Main Script -->
     <!-- Back to Top Button -->
     <button id="back-to-top" title="Volver arriba">
@@ -472,7 +475,7 @@
     </button>
 
     <!-- Main Script (Loaded last) -->
-    <script src="js/script.js?v=40"></script>
+    <script src="js/script.js?v=42"></script>
 </body>
 
 </html>
