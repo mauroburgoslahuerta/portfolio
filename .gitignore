@@ -1,0 +1,21 @@
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+
+# Node (if we add it later)
+node_modules/
+npm-debug.log
+
+# Gemini/Agent hidden files
+.gemini/
+.antigravity/

@@ -1,0 +1,702 @@
+
+--- USER ---
+<USER_REQUEST>
+Quiero mejorar mi portfolio para posicionarme mejor en la búsqueda de empleo. Tenemos una estrategia acordada de 'tres puertas' (Docencia y Aula / Alfabetización Digital / Desarrollo EdTech). El punto de partida es F:\Proyectos Antigravity\Portfolio - copia. Los textos del 'Sobre mí' ya están escritos. Antes de tocar nada, léete las skills frontend-design, web-design-guidelines y pre-flight-check. 
+lee tb las reglas
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:08:24+02:00.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from None to Claude Sonnet 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>
+
+--- USER ---
+<USER_REQUEST>
+1. no los tengo.
+2. confirmo
+3. me fio de ti
+4.estoy de acuerdo,.
+
+tengo una duda. necesitas saber algo mas sobre mi mi formacion, proyectos o algo? no dudes en preguntarme 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:13:39+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+son muchas preguntas y densas, gracias por decirlo. voy a preguntarselas un chat de gemini con el que gestione trabajos y a ver qu enos dice. yo te copio 2 respuestas y lo valoramos juntos. xq ahora no se 100% todo y son la 1:15 de la mañana y no me cunde pensar tanto
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:15:59+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+lo de la puerta 3 puedes verlo tu en mi carpeta proyectos antigravity. ahi esta todo lo que fui haciendo. analizalo bien uno por uno, sin prisa y mira si algo es rescatable para el portfolio ademas de aventuria. luego te contesto el resto de cosas
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:31:57+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+aventuria.verel.app
+opos-forestaless.vercel.app
+
+ahora no puedo contestarte, recuerdamelo luego
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:49:39+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+pero mira las webs
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:50:02+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+estoy repiteme las preguntas
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:55:28+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+luego vamos a las de gemini, vamos a cerrar el punto 3 nosotros. 
+los videos eran infumables, pero si que salia video. y lo de minecraft se quedo en el aire, demasiado trabajo para poco dinero. ya qque no tenia conocimientos de eso.
+
+por cierto, aventuria ya no esta como la biblia dice, aunque supongo que lo importante si te paso un texto de mi vison para ella 
+"Aventuria
+Sistema de creación de experiencias educativas interactivas con IA
+Versión del documento: 1.0
+Estado: Documento de visión y funcionamiento
+Propósito: Texto base de referencia
+1. Qué es Aventuria
+Aventuria es una plataforma que permite transformar cualquier tema en una experiencia
+educativa interactiva, combinando inteligencia artificial, diseño pedagógico y elementos
+lúdicos.
+Su objetivo no es automatizar la educación, sino facilitar la creación de materiales de
+calidad, reduciendo el tiempo técnico y manteniendo el criterio humano como parte esencial
+del proceso.
+2. Principio fundamental
+Aventuria parte de una idea clara:
+La inteligencia artificial propone.
+El creador revisa, ajusta y valida.
+El sistema está diseñado para que ningún contenido educativo se comparta sin una
+revisión previa por parte de la persona que lo crea.
+La IA genera una primera propuesta, pero el criterio final siempre es humano.
+3. Aprendizaje adaptativo
+Aventuria aplica el concepto de aprendizaje adaptativo instantáneo:
+● Ajusta el lenguaje según la edad y el contexto
+● Modula la dificultad de las preguntas
+● Presenta la información de forma comprensible y atractiva
+El resultado es un contenido que se adapta al público sin que el creador tenga que
+programar ni estructurar manualmente cada detalle.
+4. Tratamiento educativo de los temas
+Aventuria no funciona como un generador neutro.
+Cuando un tema puede resultar sensible o inapropiado en su forma original, el sistema lo
+reconduce hacia un enfoque educativo, priorizando siempre el aprendizaje, la reflexión y
+la comprensión.
+Ejemplo:
+● La violencia s
+<truncated 17 bytes>
+ resolución de conflictos
+● Las conductas negativas se transforman en aprendizajes sobre convivencia, ética
+y normas
+Este enfoque permite trabajar temas complejos de forma responsable y pedagógica.
+5. Rol del creador
+La persona que crea una aventura tiene control total sobre el contenido antes de
+compartirlo.
+Durante la fase de revisión puede:
+● Editar preguntas
+● Modificar respuestas
+● Ajustar explicaciones pedagógicas
+● Regenerar o redefinir las imágenes mediante nuevos prompts
+Este proceso forma parte esencial de Aventuria y refuerza la calidad del material final.
+6. Experiencia del jugador
+Las aventuras pueden jugarse:
+● Sin registro
+● Desde cualquier dispositivo
+● Con feedback inmediato
+El foco está en el aprendizaje y la experiencia, no en la creación de cuentas ni en la fricción
+técnica.
+7. Aprender haciendo
+Aventuria fomenta la mejora continua:
+● Registra el primer y mejor intento como reflejo del conocimiento inicial y final
+● Permite repetir la experiencia para mejorar resultados
+● Refuerza el aprendizaje a través de la práctica
+El error forma parte del proceso educativo, no se penaliza.
+8. Filosofía de diseño
+Aventuria ha sido diseñada siguiendo tres principios:
+1. Responsabilidad educativa
+La automatización nunca sustituye al criterio humano.
+2. Control consciente
+El creador participa activamente en el resultado final.
+3. Calidad frente a velocidad
+Crear rápido no es el objetivo; crear bien, sí.
+9. Qué no pretende ser Aventuria
+● No es un generador automático sin supervisión
+● No sustituye al docente
+● No prioriza la viralidad sobre el contenido
+Aventuria es una herramienta, no un atajo.
+10. En una frase
+Aventuria utiliza inteligencia artificial para facilitar la creación de
+experiencias educativas, manteniendo siempre el control humano y el
+enfoque pedagógico como eje central.
+Fin del documento"
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T01:58:11+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+mis chats te contestaran la 3, pero ignoralo a no ser que quieras pregyntar algo.
+el el resto de cosas compara y pregunta y elegimos, luego completo lo que falta.
+respuestas:
+1: "🚪 Puerta 1 — Docencia y Aula
+
+Años y tipo de centro: Llevas dando clase desde noviembre de 2020 (casi 4 años acumulados). Has trabajado en colegios privados/concertados de élite (British O Castro, Colegio Apóstol, Carmelitas, Rosalía de Castro) y en la escuela pública (CEIP Parga).
+
+Asignaturas / especialidades: Además de robótica y programación, has impartido edición de vídeo y apoyo educativo/refuerzo escolar para Primaria y Secundaria (Fundación Secretariado Gitano). Académicamente, tu especialidad es Educación Física.
+
+Habilitaciones: Grado en Maestro de Educación Primaria.
+
+Resultado concreto/Hito: Fuiste árbitro oficial en las Olimpiadas de Robótica celebradas en Vigo (fase clasificatoria para la nacional).
+
+🚪 Puerta 2 — Alfabetización Digital
+
+Rol y tiempo en Generación D (Red.es): Eres Docente de Competencias Digitales (contratado por Grupo Euroformac dentro del Programa Conexión Digital). Llevas desde abril de 2026 en este puesto.
+
+Perfil de adultos: Usuarios del entorno rural (concellos como A Fonsagrada y Chantada). Principalmente adultos y personas mayores sin competencias digitales básicas.
+
+Temario práctico: Les enseñas "defensa personal digital": e-Administración (certificados, sistema Cl@ve, app del Sergas), ciberseguridad (evitar phishing, robos de identidad) y uso efectivo del móvil.
+
+🚪 Puerta 3 — Desarrollo EdTech
+
+AventurIA: Es un MVP totalmente funcional en producción (SaaS alojado en Vercel y configurable como PWA). Cuenta con integraciones complejas (resiliencia visual con Gemini y Pollinations AI) y funciona como tu buque insignia demostrable.
+
+Más proyectos EdTech: Tienes las Fichas UX-IA de diseño instruccional analógico, programación de videojuegos arcade (MakeCode) y por bloques (Scratch), y proyectos físicos con LEGO Spike y Micro:bit.
+
+Equipo: Des
+<truncated 1599 bytes>
+n y la motivación del alumnado.  Puerta 2 — Alfabetización DigitalRol en Red.es: Ejerces como Docente de Competencias Digitales desde abril de 2026.  Perfil de adultos: Capacitas a usuarios del entorno rural. Llevas a cabo formaciones sobre ciberseguridad, e-Administración y comunicación móvil efectiva. En el día a día, esto se traduce en enseñar trámites digitales a adultos mayores en localidades como A Fonsagrada y Chantada, aplicando un enfoque directo y evitando tonos infantilizadores.  Otras experiencias: Tu bagaje docente principal con este perfil demográfico se concentra en la campaña actual del Programa Conexión Digital.  Números: Impartes formaciones continuadas, gestionando grupos recientes en bloques de 9 horas de clase.Puerta 3 — Desarrollo EdTechEstado de AventurIA: La plataforma está activa y desplegada en Vercel. Opera como un entorno SaaS real orientado a la generación dinámica de cuestionarios interactivos.Otros proyectos: Cuentas con tu propio portfolio docente web  y tienes experiencia en la generación mediante IA de recursos educativos a medida, como cuadernos de actividades en gallego.  Trabajo en equipo: Tu flujo de desarrollo es en solitario, apoyándote en herramientas avanzadas de Inteligencia Artificial (como Google Antigravity) para levantar la arquitectura y el código de forma autónoma.GeneralEmpresa EdTech ideal: El objetivo apunta al sector privado B2B (consultoras o empresas de software) y al sector social, buscando lugares que rentabilicen económicamente tu perfil técnico-pedagógico y evitando modelos de salarios base precarios.Puestos en mente: Tienes dos vías tácticas activas: consolidar tu posición como docente TIC forzando una continuidad con Euroformac, y optar a puestos de intervención socioeducativa, como el rol de Educador en la Casa de Familia de la Fundación Dignidade."
+
+recuerda, no programamos aun nada. vamos a ver los datos 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:01:30+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+te meti mi cv en la carpeta, que veo que hay datos confusos. mira ahi y te contesto lo que falta, xq son raras las preguntas
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:05:17+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+vale  vamos a hablar, en mi cv la primera experiencia de trabajo es lo relaivo a gen D y te lo saltas. lo del 2 no existe. el cuadernillo no es nada relevante. fue para mi ahijado.
+
+mero te digo que este es mi ultimo cv, el mas actualizado. 
+
+ah, con respecto a las olimpiadas si, fui 2 años arbotro, ya que mi empresa logonautas era la que tenia la licitacion de lego y ella la organizaba
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:08:54+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+tube que cambiar el modelo a gemini 3.1 pro
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:12:35+02:00.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from Claude Sonnet 4.6 (Thinking) to Gemini 3.1 Pro (High). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>
+
+--- USER ---
+<USER_REQUEST>
+no pones nada de ceip de parag en lugo ? ademas le damos mucha importancia alo de arbitro que no tengo ni pruebas, lo ves tan importante? recuerda que tienes skills nuevas disponibles para su uso
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:15:05+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+no era mejr pensar todo antes d emodificar parte por parte? creo que me lo dijiste tu con el otro modelo. Si lo ves claro go
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:17:05+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+la idea nno es mala, pero lo que pusiste en formacion de adulltos es de robotica y ademas no tego nada mostrable. ya que los pdf oficiales del gobierno no se puede y im material lo hice con notebook lm la mayoria, que pese a ser bajo mis indicaciones precisas y añadi diapositivas creadas con gemini imagenes creo que son reconocibles de estilo pese a que puse mi logo sobre el de notebook lm y puede perjudicar.
+
+tambiien me rechina lo de cambiando a traves de robotica, no cuando lo puse, pero si ahora un poco, que opinas? del subtitulo.
+
+tambien hay saltos de line raros 
+
+no hace falta que hagas cambios ya, ahorra trabajo. hablemo primero, como sujerí antes
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:25:14+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+di sinceramente es iable y bueno o recomendable un portfolio a 3 vias?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:26:22+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+es que me parece que lo estamos haciendo como dices que no hay que hacer, tu mismo pusiste la etiqueta de para...
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:28:00+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+te pegue en la carpta un ejemplo de crso que di a mayores para que veas materiales. el la carpeta raiz deberia estar el pdf oficial y el esquema oficial y el resto de cosas son mias
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:30:34+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+espera, no quieras siempre tirar para alante y escribas tanto xq te pones la zanccadilla a ti mismo saturando el chat. todos los cursos de red. es se dividen en 12h, 9 de docencia divididas en 3 dias. he dado 3 cursos y estoy dando otros 2, en la carpeta F:\Documentos\Cursos RED.e pudes verlos todos, no solo el ejemplo que te puse. los videos no los use, los genere  x ver que pasaba, lo que si uso son las diapositivas los guiones tampoco los uso, si los leo el dia anterior o asi para saber que hacer, pero en clase improviso xq es imposible seguir un guion asi. 
+
+hay 2 cursos de los que solo hay dia 1, ya que solo imparti ese dia por ahoraa, estan en curso
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:37:52+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+es que tu eres el que me tienes que ayudar. hay alguna skill que te ayude? usa la skill find skills
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:39:18+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+y nada vale para poner? xq tengo 5 cursos
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:40:20+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+me parece que no avanzamos,que das bandazos y que no e puedo fiar es la 3a vez que me pasa con el portfolio y no se que pasa. todos me d vendeis que soy la ostia, que si, que hacemos no se cuanto y todos acabas igual. o no haciendo ada o dejandolo peor. no es catastrofismo o derrotismo. simplemente estoy narrando la realidad
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:42:46+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+viste las presentaciones?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:43:53+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+es que yo no lo se xq no se como son los de los demás. x eso queria que tu lo vieras
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:44:58+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+la presentacion que menos me gusta de las que hice es la del ciberseguridad, ya que aparecen fotos de ancianos y el lenguaje es infantil, no e convence, fue mi primer curso y aprendi para los posteriores, revisa otra mejor
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:46:03+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+no poes ninguna presnetacion comleta o mas diap? bueno tu haz lo que sea mejor y enseñamelo cando lo tengas. no seas complaciente. usa las skills y pregunta lo que no sepas
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T02:49:18+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+no funciona el boton, sigue poniendo para, siguen estando cosas de robotoca en lo de para adulltos, al solo haber una tj se ve horrible etc. creo qu eno quiero seguir, perdi la esperanza y cada vez mas con cada entrega que me haces
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T03:00:05+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+es una chapuza lo de la formacion a adultos ademas la tj no sigue el estandar de las otras de que se pueda abrir, necesitamos 5 tj una por curso y que la imagen de prtada se vea entera, esta se ve cortada. en cada tj pon info del curso, puedes conectarte al mcp de notebooklm de cada curso si necesitas informacion ara dentro de las tajetas. creo que el odf completo no lo sibimos. podemos poner 2 o 3 diapositivas si quieres al abrir la tj. si algo no te encaja o me estoy equivocando dimelo. si no hazlo
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T03:08:21+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+arregla el mcp, anteriormente hubo probblema mira en la carpeta de telus si esta explicado como solucionarlo, ya que el lo hizo
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T03:14:18+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+que haces-' explicame xq no quieres hacer 5 tjsts para formacion de adultos si para aula hai mas, es facil de entender la pregunta
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T03:29:19+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+hazlo
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T03:31:48+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+hay MUCHAS cosas mal. la imagen del curso de whatsapp no se arrreglo el tamaño, la de los cursos de reservas online y redes sociales sale la imagen de la prtada del pdf oficial, no la de mi presentacion. los nmbres de los cursos no tienen un formato unificado. no se abre ta tarjeta cuando clickas para ampliar informacion, sigue estando junto con lo de niños... etc , etc...zzzzz
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T03:46:28+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+hazlo y revisalo todo varia veces antes de mandarme a mi
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T03:57:49+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+Continue
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:01:26+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+quiero que me expliques xq tantos comandos de ohyton? xq no programas tu?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:05:42+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+si es algo tan facil como hacer una captura y te ahorra tanto trabajo tiempo y tokens deberias mandarmelo a mi
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:08:43+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+suigue habiendo solo 3 buckets, me aburro en serio
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:09:39+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+osea, tenia razon, mandas a scripts en vez de hacerlo tu y estaba mal otra vez y otra vez me hiciste ir ¡, osea perdemos 10 minutos x no pedirme una captura y me hacer perder mas x los sripst todo el rato culpandolos
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:12:59+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+ahora esta mejor, tengo cambjios concretos:
+
+1 la tarjeta del whastapp no sigue el formato de las otras, arréglala , me refiero al texto.
+
+2. quita los pdfs completos si no los hay en las 2 ultimas, ademas eran solo del dia 1, esas presentaciones y no se especificaba.
+
+3. en el hueco que queda donde pone instrucciones o lo eliminamos o ponemos otra cosa, pero instrucciones no hay en ese apartado de adultos
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:18:28+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+Para centros educativos
+Docencia y Aula
+Graduado en Educación Primaria (EF). Más de 3 años de experiencia impartiendo Robótica y Programación. Trayectoria versátil que abarca tanto colegios privados/concertados (British O Castro, Apóstol) como la escuela pública (CEIP Parga). Experiencia sólida fomentando el pensamiento computacional en el aula.
+
+Para entidades formadoras
+Alfabetización Digital
+Docente de Competencias Digitales (Conexión Digital, Red.es). Formación práctica para mayores de 60 años en el entorno rural (A Fonsagrada, Chantada). Centrado en dotar de autonomía y "defensa personal digital" (e-Administración, ciberseguridad, uso del smartphone).
+
+Para empresas tecnológicas
+Desarrollo EdTech
+Creador de productos EdTech reales en producción. Desarrollador de AventurIA (SaaS de aprendizaje adaptativo generativo) y de una plataforma integral de preparación de oposiciones. Desarrollo ágil orquestando IA, React y Supabase.
+
+
+
+EL PARAAAAAAA
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:24:38+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+y te cargaste todas las instrucciones tb la de los juegos, al igual que todos los botones de jugar o ver recurso etc...
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:26:10+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+deja de hacerlo via script, te lo dije muchas veces
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:26:32+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+sigue habiendo muchas cosas mal y aun no vi todo. pero lo mas importante es que las fichas que se abren son horribles el espacio esta mal distribuido, hay que scrollear y no es evidente etc ademas hay mas cosas:
+1. en la ficha de uxia desaparecio la foto
+2. antes todos los juegos eran jugables y ahora solo el de super maria se puede
+3. en aventuria tb desaparecio la foto
+
+4 seguro que hai mucho mas. revisalo TU!
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:42:35+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+vale. quiero discutir ya detalles mas pequeños x ejemplo, creo que poner explicitamente fonsagrada y chantada no aporta valor o si?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:47:03+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+perdon, responde, es que te vi buscando la palabra en la carpeta proyectoos y me asuste
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:49:17+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+me gusta mas como esta que omo propones. solo lo ultimo de esa tarjeta sobre mi podemos  poner los 5 cursos, no 3. revisa los textos xfa. si crees que es mejor que lo haga otro agente dimelo sinceramente como marcan las reglas
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:51:48+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+es que he leido todos los textos de las tarjetas y creo que son mejorables. los de las antiguas, no los de esta sesion, x eso te lo decia.
+y por otro lado hay que mejorar la tj de opos forestales. pero lo haremos mas tarde
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:54:10+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+me retracto, creo que no estan tan mal. no pueden sonar a ia
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:57:53+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+los juegos siguen sin pder jugarse en el modal
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:58:26+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+solo el de supermaria
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T04:58:37+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+no van los 3 ultimos, falppy, maria y cohetes
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:06:43+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+a ver, atiendeme, funciona laberinto y pilla al pez, uno de cada y luego no funcionan los otros 3. algo hiciste mal. estas cambiando mil cosas y dandole mil vueltas a todo y no esta cambiando nada. revisa que no estes jodiendo otra cosa. si estas superado pide el relevo
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:18:54+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+yo hoy jugue meter¡oritos asi que lo hiciste semi recientemente, buscalos en la carper¡ta de portfolio
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:36:58+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+proponme un nuevo texto para la tarjeta exterior de laberintoç
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:39:50+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+si te fijas el texto de fuera no dice como se juega. lee los otros anda y adaptalo
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:43:59+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+el 1
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:45:14+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+revisa si algun texto rechina de ese modo
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:46:21+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+adelante
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:47:48+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+ahora revisa los interiores de la misma forma
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:49:00+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+me gustan, usaaste alguna skill?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:50:21+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+pero tenemos skill buenas para eso, xq no las usamos y reisas los textos?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:51:50+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+ahora no se abren las fichas
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T05:54:23+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+pero no te he dicho mil veces que no lo hagas mediante script? que no paras de liarla?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T06:01:59+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+ahor avamos a hablar seriamente, los juegos que teoricamente arreglaste. sabes que hiciste? el de arcade makedcode no apunta a nada y los de scratch a otro juego d eotra oersona
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T06:03:14+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+ya funcionan todos. acabamos hoy.
+dime en que condiciones deberia seguir contigo mañana y para que es mejor que abra un agente nuevo
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T06:06:55+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+lo de makecode ya funciona amigo, jaja buenas noche
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T06:07:36+02:00.
+</ADDITIONAL_METADATA>
+
+--- USER ---
+<USER_REQUEST>
+dime un mensaje para abrir un nuevo chat y que s eponga al dia con todo para acabar nuestro trabajo de ayer
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-05-31T17:08:10+02:00.
+</ADDITIONAL_METADATA>

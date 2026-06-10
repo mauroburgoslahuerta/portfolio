@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauro Burgos | Educación & Tecnología</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+
+    <meta name="description"
+        content="Portfolio de Mauro Burgos Lahuerta. Diseñador Pedagógico y Creador EdTech. Conectando la experiencia en el aula con el desarrollo de soluciones tecnológicas e IA.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mauro Burgos | Educación & Tecnología">
+    <meta property="og:description"
+        content="Portfolio de Mauro Burgos Lahuerta. Diseñador Pedagógico y Creador EdTech. Conectando la experiencia en el aula con el desarrollo de soluciones tecnológicas e IA.">
+    <meta property="og:image"
+        content="https://mauroburgoslahuerta.github.io/portfolio/assets/images/social_preview.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css?v=10">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon & WebClip -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png?v=2">
+    <link rel="apple-touch-icon" href="assets/images/favicon.png?v=2">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJD3G6DV33"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CJD3G6DV33');
+    </script>
+</head>
+
+<body>
+
+    <header id="navbar">
+        <nav class="container">
+            <a href="#inicio" class="nav-logo">
+                <img src="assets/images/logo-nav.png" alt="Logo Mauro Burgos">
+            </a>
+
+            <div class="nav-right-container" style="display: flex; align-items: center; gap: 20px;">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+
+
+
+                <div class="hamburger" role="button" aria-label="Abrir menú de navegación" tabindex="0">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero fade-in">
+        <div class="container hero-content">
+            <img src="assets/images/brain.png" class="hero-brain" alt="Brain Icon">
+            <h1>Mauro Burgos</h1>
+            <h2 class="typing-effect"><span>Docente de</span> <span
+                    id="typewriter"></span></h2>
+            <p class="hero-text fade-in">
+                Conectando la tecnología con el aprendizaje. Diseñador Pedagógico y Creador EdTech.<br>
+                Transformo problemas reales en herramientas digitales prácticas.
+            </p>
+            <div class="cta-buttons">
+                <a href="#proyectos" class="btn primary"><span>Ver Proyectos</span> <i
+                        class="fas fa-arrow-down"></i></a>
+                <a href="assets/docs/CV_Mauro_Burgos.pdf" target="_blank" class="btn secondary">Descargar CV <i class="fas fa-file-pdf"></i></a>
+                <a href="#contacto" class="btn secondary">Contactar</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="sobre-mi" class="about fade-in">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="doors-grid">
+                <!-- Puerta 1 -->
+                <div class="door-card door-emerald" onclick="filterFromAbout('docencia')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();filterFromAbout('docencia');}" style="cursor: pointer;">
+                    <div class="door-tag">Experiencia en Aula</div>
+                    <h3>Docencia y Aula</h3>
+                    <p>Graduado en Educación Primaria (EF). Más de 3 años de experiencia impartiendo Robótica y Programación. Trayectoria versátil que abarca tanto colegios privados/concertados como la escuela pública. Experiencia sólida fomentando el pensamiento computacional en el aula.</p>
+                </div>
+                <!-- Puerta 2 -->
+                <div class="door-card door-amber" onclick="filterFromAbout('adultos')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();filterFromAbout('adultos');}" style="cursor: pointer;">
+                    <div class="door-tag">Inclusión Digital</div>
+                    <h3>Alfabetización Digital</h3>
+                    <p>Docente de Competencias Digitales (Conexión Digital, Red.es). Formación práctica para mayores de 60 años en el entorno rural. Centrado en dotar de autonomía y "defensa personal digital" (WhatsApp, ciberseguridad, e-Administración, redes sociales y reservas online).</p>
+                </div>
+                <!-- Puerta 3 -->
+                <div class="door-card door-blue" onclick="filterFromAbout('edtech')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();filterFromAbout('edtech');}" style="cursor: pointer;">
+                    <div class="door-tag">Desarrollo de Producto</div>
+                    <h3>Desarrollo EdTech</h3>
+                    <p>Creador de plataformas EdTech. Diseño la base pedagógica e integro modelos de Inteligencia Artificial para desarrollar aplicaciones funcionales. Mi enfoque consiste en transformar problemas reales de aprendizaje en soluciones tecnológicas prácticas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects fade-in">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+
+            <!-- Project Filters -->
+            <div class="project-filters"
+                style="margin-bottom: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn docencia" data-filter="docencia">Docencia y Aula</button>
+                <button class="filter-btn adultos" data-filter="adultos">Alfabetización Digital</button>
+                <button class="filter-btn edtech" data-filter="edtech">Desarrollo EdTech</button>
+            </div>
+
+            <div class="projects-grid">
+
+                
+
+                <!-- Project: AventurIA App (Flagship) -->
+                <article class="project-card featured" data-category="edtech" onclick="window.openModal('aventuria-app')">
+                    <div class="featured-badge">
+                        <i class="fas fa-star"></i> <span>Destacado</span>
+                    </div>
+                    <div class="project-media">
+                        <img src="assets/images/aventuria_preview.png" alt="AventurIA App Preview" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag edtech">IA Generativa</span>
+                        <h3 data-project-title="aventuria-app">AventurIA - Plataforma Educativa con IA</h3>
+                        <p data-project-desc="aventuria-app">Plataforma de desarrollo propio que transforma cualquier
+                            tema en una
+                            aventura educativa interactiva en segundos.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica / Probar</span> <i
+                                class="fas fa-rocket"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project: Oposiciones Forestales -->
+                <article class="project-card" data-category="edtech" onclick="window.openModal('opos-forestales')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.openModal('opos-forestales');}">
+                    <div class="project-media">
+                        <img src="assets/images/opos_preview.png" alt="Oposiciones Forestales Preview" loading="lazy" width="600" height="400"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: top; transform: scale(1.15);">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag edtech">Desarrollo Web</span>
+                        <h3 data-project-title="opos-forestales">Oposiciones Forestales</h3>
+                        <p data-project-desc="opos-forestales">Plataforma EdTech integral desarrollada ad hoc para que mi hermano preparase sus oposiciones. Incluye temario y resúmenes para el estudio, creación de simulacros a partir de un banco de preguntas, y un dashboard analítico de rendimiento.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            Ver Detalles <i class="fas fa-arrow-right" aria-hidden="true" style="margin-left:5px;"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project: AventurIA Concept -->
+                <article class="project-card" data-category="edtech" onclick="window.openModal('aventuria-example')">
+                    <div class="project-media">
+                        <!-- Reusing the preview or a game screenshot if available. Using same for visual consistency unless user provides another -->
+                        <img src="assets/images/aventuria_ct_start.png" alt="AventurIA Example" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag edtech">IA Generativa</span>
+                        <h3 data-project-title="aventuria-example">AventurIA - Pensamiento Computacional (4.º EP)</h3>
+                        <p data-project-desc="aventuria-example">Recurso interactivo generado con AventurIA (plataforma propia) para introducir al alumnado en el pensamiento computacional.</p><!--
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica / Jugar</span> <i
+                                class="fas fa-rocket"></i>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 1: Scratch (Embed) -->
+                <!-- Project 1: Scratch (Embed) -->
+                <article class="project-card" data-category="docencia" onclick="window.openModal('pilla-al-pez')">
+                    <div class="project-media">
+                        <img src="assets/images/shark_preview.png" alt="Pilla al pez Scratch" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag docencia">Scratch</span>
+                        <!-- Title/Desc dynamic via JS -->
+                        <h3 data-project-title="pilla-al-pez">Pilla al pez – Scratch (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)
+                        </h3>
+                        <p data-project-desc="pilla-al-pez">Práctica de introducción a la programación por bloques donde el alumnado programa el movimiento y la interacción entre personajes.</p><!--
+                            
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica / Jugar</span> <i
+                                class="fas fa-gamepad"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 2: Makecode -->
+                <!-- Project 2: Makecode -->
+                <article class="project-card" data-category="docencia" onclick="window.openModal('makecode')">
+                    <div class="project-media">
+                        <img src="assets/images/laberinto_preview.png" alt="Laberinto Arcade Screenshot" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag docencia">MakeCode Arcade</span>
+                        <h3 data-project-title="makecode">Laberinto - Arcade Makecode (2.º&nbsp;ciclo&nbsp;de&nbsp;EP)
+                        </h3>
+                        <p data-project-desc="makecode">Práctica de pensamiento algorítmico donde el alumnado diseña su propio laberinto y programa la condición de victoria.</p><!--
+                            
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica / Jugar</span> <i
+                                class="fas fa-gamepad"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 3: UX-IA -->
+                <!-- Project 3: UX-IA -->
+                <article class="project-card" data-category="docencia" onclick="window.openModal('uxia')">
+                    <div class="project-media">
+                        <img src="assets/images/uxia_preview.png" alt="Fichas UX-IA Preview" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag docencia">Recursos</span>
+                        <h3 data-project-title="uxia">Fichas UX-IA (Uxía) - Pensamiento Computacional
+                            (1.º&nbsp;ciclo&nbsp;de&nbsp;EP)
+                        </h3>
+                        <p data-project-desc="uxia">Recurso analógico progresivo para asentar las bases de la lógica y la secuencia sin utilizar pantallas.</p><!--
+                            
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica</span> <i class="fas fa-book-open"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 4: LEGO Spike -->
+                <!-- Project 4: LEGO Spike -->
+                <article class="project-card" data-category="docencia" onclick="window.openModal('lego-noel')">
+                    <div class="project-media">
+                        <img src="assets/images/lego_preview.png" alt="Papá Noel LEGO Spike" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag docencia">Robótica</span>
+                        <h3 data-project-title="lego-noel">Papá Noel y su reno motorizado – LEGO® SPIKE
+                            (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)
+                        </h3>
+                        <p data-project-desc="lego-noel">Taller de robótica sobre el uso de engranajes y programación de secuencias de movimiento con motores.</p><!--
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica</span> <i class="fas fa-hammer"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 5: Super María -->
+                <!-- Project 5: Super María -->
+                <article class="project-card" data-category="docencia" onclick="window.openModal('super-maria')">
+                    <div class="project-media">
+                        <img src="assets/images/supermaria_preview.png" alt="Super María MakeCode" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag docencia">MakeCode Arcade</span>
+                        <h3 data-project-title="super-maria">Super María – Arcade MakeCode
+                            (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)</h3>
+                        <p data-project-desc="super-maria">Diseño de un videojuego de plataformas donde el alumnado aprende a programar gravedad, saltos y rutinas de enemigos.</p><!--
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica / Jugar</span> <i
+                                class="fas fa-gamepad"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 6: Flappy Bird -->
+                <!-- Project 6: Flappy Bird -->
+                <article class="project-card" data-category="docencia" onclick="window.openModal('flappy-bird')">
+                    <div class="project-media">
+                        <img src="assets/images/flappy_preview.png" alt="Flappy Bird Scratch" loading="lazy"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag docencia">Scratch</span>
+                        <h3 data-project-title="flappy-bird">Flappy Bird – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)</h3>
+                        <p data-project-desc="flappy-bird">Proyecto avanzado de programación por bloques para trabajar conceptos de física, clonación de personajes y eventos.</p><!--
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica / Jugar</span> <i
+                                class="fas fa-gamepad"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 7: Meteoritos -->
+                <!-- Project 7: Meteoritos -->
+                <article class="project-card" data-category="docencia" onclick="window.openModal('meteoritos')">
+                    <div class="project-media">
+                        <img src="assets/images/meteoritos_preview.png" loading="lazy"
+                            alt="Esquiva los meteoritos – Scratch (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)"
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag docencia">Scratch</span>
+                        <h3 data-project-title="meteoritos">Esquiva los meteoritos – Scratch
+                            (3.º&nbsp;ciclo&nbsp;de&nbsp;EP)</h3>
+                        <p data-project-desc="meteoritos">Juego de supervivencia que introduce la generación de números aleatorios y la dificultad progresiva.</p><!--
+                            -->
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Ficha Didáctica / Jugar</span> <i
+                                class="fas fa-gamepad"></i>
+                        </button>
+                    </div>
+                </article>
+
+<!-- Project: Formación Adultos (WhatsApp) -->
+                <article class="project-card" data-category="adultos" onclick="window.openModal('alfabetizacion-digital')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.openModal('alfabetizacion-digital');}">
+                    <div class="project-media">
+                        <img src="assets/images/whatsapp_cover.png" alt="Alfabetización Digital Preview" loading="lazy" width="600" height="400"
+                            style="width: 100%; height: 100%; object-fit: contain; background-color: #f8f9fa;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag adultos">Formación de Adultos</span>
+                        <h3 data-project-title="alfabetizacion-digital">Programa Generación D - Red.es</h3>
+                        <p data-project-desc="alfabetizacion-digital">Alfabetización digital para mayores de 60 años. Diseño instruccional y adaptación de currículos oficiales a la realidad rural.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Detalles</span> <i
+                                class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </article>
+
+<!-- Project: Formación Adultos (Ciberseguridad) -->
+                <article class="project-card" data-category="adultos" onclick="window.openModal('alfabetizacion-ciber')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.openModal('alfabetizacion-ciber');}">
+                    <div class="project-media">
+                        <img src="assets/images/ciber_cover.png" alt="Ciberseguridad Preview" loading="lazy" width="600" height="400"
+                            style="width: 100%; height: 100%; object-fit: contain; background-color: #f8f9fa;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag adultos">Formación de Adultos</span>
+                        <h3 data-project-title="alfabetizacion-ciber">Ciberseguridad - Generación D</h3>
+                        <p data-project-desc="alfabetizacion-ciber">Curso intensivo sobre protección digital, contraseñas seguras y prevención de estafas online.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Detalles</span> <i
+                                class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project: Formación Adultos (Trámites) -->
+                <article class="project-card" data-category="adultos" onclick="window.openModal('alfabetizacion-tramites')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.openModal('alfabetizacion-tramites');}">
+                    <div class="project-media">
+                        <img src="assets/images/tramites_cover.png" alt="Trámites Preview" loading="lazy" width="600" height="400"
+                            style="width: 100%; height: 100%; object-fit: contain; background-color: #f8f9fa;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag adultos">Formación de Adultos</span>
+                        <h3 data-project-title="alfabetizacion-tramites">Trámites con la Administración</h3>
+                        <p data-project-desc="alfabetizacion-tramites">Gestión de Cl@ve, certificados digitales y acceso a la Carpeta Ciudadana para mayores.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Detalles</span> <i
+                                class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project: Formación Adultos (Redes) -->
+                <article class="project-card" data-category="adultos" onclick="window.openModal('alfabetizacion-redes')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.openModal('alfabetizacion-redes');}">
+                    <div class="project-media">
+                        <img src="assets/images/redes_cover.png" alt="Redes Preview" loading="lazy" width="600" height="400"
+                            style="width: 100%; height: 100%; object-fit: contain; background-color: #f8f9fa;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag adultos">Formación de Adultos</span>
+                        <h3 data-project-title="alfabetizacion-redes">Redes Sociales - Generación D</h3>
+                        <p data-project-desc="alfabetizacion-redes">Uso seguro y constructivo de redes sociales para evitar el aislamiento en el entorno rural.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Detalles</span> <i
+                                class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project: Formación Adultos (Reservas) -->
+                <article class="project-card" data-category="adultos" onclick="window.openModal('alfabetizacion-reservas')" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();window.openModal('alfabetizacion-reservas');}">
+                    <div class="project-media">
+                        <img src="assets/images/reservas_cover.png" alt="Reservas Preview" loading="lazy" width="600" height="400"
+                            style="width: 100%; height: 100%; object-fit: contain; background-color: #f8f9fa;">
+                    </div>
+                    <div class="project-content">
+                        <span class="tag adultos">Formación de Adultos</span>
+                        <h3 data-project-title="alfabetizacion-reservas">Reservas y Compras Online</h3>
+                        <p data-project-desc="alfabetizacion-reservas">Planificación de viajes y compras seguras online con foco en detección de fraudes.</p>
+                        <button class="btn-link"
+                            style="background:none; border:none; padding:0; cursor:pointer; font-family: inherit; font-size: inherit; color: var(--accent); font-weight: 600;">
+                            <span>Ver Detalles</span> <i
+                                class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact fade-in">
+        <div class="container">
+            <h2 class="section-title">Hablemos</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+
+                    <div class="info-item">
+                        <a href="mailto:mauroburgoslahuerta@gmail.com" class="icon-link" aria-label="Enviar correo">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <p>mauroburgoslahuerta@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone clickable-icon" onclick="revealPhone(this.nextElementSibling)"
+                            style="cursor: pointer;" title="Ver teléfono"></i>
+                        <div class="phone-container" onclick="revealPhone(this)">
+                            <span class="phone-mask">Ver Teléfono</span>
+                            <span class="phone-number hidden">+34 667 910 333</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <a href="assets/docs/CV_Mauro_Burgos.pdf"
+                            target="_blank" class="icon-link" aria-label="Ver CV">
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
+                        <a href="assets/docs/CV_Mauro_Burgos.pdf"
+                            target="_blank">Ver CV Completo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="assets/images/logo-nav.png" alt="Mauro Burgos Logo" class="footer-logo">
+            <p>&copy; 2025 Mauro Burgos Lahuerta.</p>
+            <div class="social-links">
+                <a href="https://github.com/mauro-burgos" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mauro-burgos-lahuerta-b77435328" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <!-- Twitter removed as requested -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Didactic Sheet Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" role="button" aria-label="Cerrar ventana modal" tabindex="0"
+                onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <span id="modal-tag" class="tag"></span>
+                <h2 id="modal-title">Título del Proyecto</h2>
+            </div>
+            <div class="modal-body">
+                <div id="modal-game-container" class="game-container" style="display:none; margin-bottom: 20px;">
+                    <iframe id="modal-iframe" src="" frameborder="0" width="100%" height="400" allowfullscreen
+                        sandbox="allow-popups allow-forms allow-scripts allow-same-origin"
+                        style="display:none;"></iframe>
+                    <img id="modal-image" src="" alt="Project Preview"
+                        style="display:none; width: 100%; height: auto; border-radius: 8px;">
+                </div>
+                <!-- Gallery container removed as not used/populated yet, but keeping structure clean -->
+
+                <div class="modal-section">
+                    <h3><i class="fas fa-info-circle"></i> Descripción</h3>
+                    <p id="modal-desc">Descripción del proyecto...</p>
+                </div>
+
+                <div class="modal-grid">
+                    <div class="modal-section">
+                        <h3><i class="fas fa-list-check"></i> Objetivos Didácticos</h3>
+                        <ul id="modal-objectives" class="modal-list">
+                            <!-- Populated by JS -->
+                        </ul>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fas fa-gamepad"></i> Instrucciones</h3>
+                        <p id="modal-instructions">Instrucciones...</p>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <a id="modal-link" href="#" target="_blank" class="btn primary">Ver en Scratch <i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Translations JS -->
+    
+    <!-- Main Script -->
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Main Script (Loaded last) -->
+    <script src="js/script.js?v=43"></script>
+</body>
+
+</html>

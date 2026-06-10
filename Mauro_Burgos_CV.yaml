@@ -1,0 +1,88 @@
+cv:
+  name: Mauro Burgos Lahuerta
+  headline: Diseñador Pedagógico y Creador EdTech
+  location: Lugo, Galicia
+  email: mauroburgoslahuerta@gmail.com
+  phone: "+34667910333"
+  website: "https://mauroburgoslahuerta.github.io/portfolio/"
+  sections:
+    Perfil Profesional:
+      - "Especialista en conectar la pedagogía de aula con el desarrollo tecnológico. Combino mi titulación oficial en Educación con una capacidad técnica autodidacta para diagnosticar necesidades formativas y construir soluciones EdTech reales. No me limito a impartir clases: orquesto herramientas de Inteligencia Artificial (IA) y desarrollo plataformas interactivas para automatizar procesos de aprendizaje y reducir la brecha digital, enfocándome en el control humano de la tecnología."
+    
+    Proyectos EdTech Destacados:
+      - name: "[Plataforma Oposiciones Forestales](https://opos-forestales.vercel.app/)"
+        summary: React, Supabase, IA
+        highlights:
+          - "Plataforma EdTech integral desarrollada ad hoc para la preparación de oposiciones."
+          - "Cuenta con ingesta automatizada masiva de temario, generación de simulacros mediante IA y un dashboard analítico para medir el progreso del opositor (\"Clínica de Errores\")."
+      - name: "[AventurIA](https://aventuria.vercel.app/)"
+        summary: Plataforma IA Generativa
+        highlights:
+          - "Plataforma EdTech propia que convierte cualquier temática en aventuras interactivas mediante IA generativa."
+          - "La IA propone el contenido de forma adaptativa, pero el diseño garantiza un control pedagógico humano al 100% sobre la narrativa, evitando sesgos algorítmicos."
+
+    Experiencia Laboral:
+      - company: Grupo Euroformac - Programa Red.es
+        position: Diseñador Instruccional y Formador Digital
+        location: Lugo
+        start_date: 2026-04
+        end_date: present
+        highlights:
+          - "Rediseño de contenidos técnicos complejos a lenguaje accesible para usuarios del entorno rural mayores de 60 años."
+          - "Diseño e impartición de módulos prácticos de 'defensa personal digital': Ciberseguridad, e-Administración y uso seguro de comunicación móvil."
+      - company: Aula Desafío & Logonautas
+        position: Coordinador y Docente STEAM
+        location: Lugo / Vigo
+        start_date: 2022-08
+        end_date: 2026-04
+        highlights:
+          - "Creación de actividades para fomentar el pensamiento computacional en múltiples colegios (British O Castro, Apóstol, Carmelitas)."
+          - "Implementación de currículos basados en Scratch, MakeCode Arcade y robótica, focalizando en el diseño algorítmico y trabajo cooperativo."
+      - company: Fundación Secretariado Gitano
+        position: Docente de Apoyo Educativo e Inclusión
+        location: Lugo
+        start_date: 2020-11
+        end_date: 2021-12
+        highlights:
+          - "Desarrollo de materiales didácticos adaptados para favorecer la motivación escolar y la inclusión del alumnado de Primaria y Secundaria."
+
+    Educación:
+      - institution: Universidad de Santiago de Compostela
+        area: Maestro de Educación Primaria
+        date: 2015 - 2020
+        highlights:
+          - "Especialidad en Educación Física. Prácticas en diversos centros educativos (atención a la diversidad y necesidades especiales)."
+      - institution: Universidad de Vigo
+        area: Ingeniería Informática (Estudios incompletos)
+        date: 2010 - 2015
+        highlights:
+          - "Toma de contacto inicial con la lógica algorítmica y las estructuras de datos. Esta base es la que me permite hoy estructurar prompts complejos y orquestar herramientas de IA sin escribir código desde cero."
+
+    Competencias:
+      - label: Hard Skills
+        details: Diseño Instruccional, IA Generativa, Prompt Engineering, Desarrollo Web (React), Bases de Datos, Pensamiento Computacional
+      - label: Idiomas
+        details: Castellano y Gallego (Nativo), Inglés (Nivel Intermedio/Alto)
+
+    Certificaciones:
+      - label: "Competencias Digitales Intermedias (ComDix)"
+        details: "Xunta de Galicia (250h)"
+      - label: "Inclusión y Tecnologías en el Aula"
+        details: "Universidad Nebrija (300h)"
+      - label: "Ciberseguridad Educativa"
+        details: "Fundación Telefónica"
+
+design:
+  theme: moderncv
+  colors:
+    name: rgb(15, 23, 42)
+    section_titles: rgb(14, 165, 233)
+  typography:
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+locale:
+  language: spanish
