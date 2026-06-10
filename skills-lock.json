@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "coaching-pms": {
+      "source": "refoundai/lenny-skills",
+      "sourceType": "github",
+      "skillPath": "skills/coaching-pms/SKILL.md",
+      "computedHash": "724349e928b357d8a35d825c38e0cadd8037692dd6acf3bc6f046e04c3dd8108"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "e72a74ef2e6272cfcf8fce5923d10e9fe9bdb2b8adb11fa08ab274c9708a04af"
+    }
+  }
+}

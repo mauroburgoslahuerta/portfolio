@@ -1,12 +1,17 @@
 :root {
-    --bg-color: #09090b;
-    --card-bg: #18181b;
-    --card-border: #27272a;
-    --text-primary: #fafafa;
-    --text-secondary: #a1a1aa;
-    --accent: #3b82f6;
-    --accent-hover: #2563eb;
-    --nav-bg: rgba(9, 9, 11, 0.8);
+    /* Brand Hue: 195 (Cyan/Teal) - OKLCH format: oklch(lightness chroma hue) */
+    --bg-color: oklch(14% 0.01 195);
+    --card-bg: oklch(19% 0.01 195);
+    --card-border: oklch(25% 0.01 195);
+    
+    --text-primary: oklch(96% 0.005 195);
+    --text-secondary: oklch(75% 0.01 195);
+    
+    --accent: oklch(65% 0.15 195);
+    --accent-hover: oklch(75% 0.15 195);
+    
+    --nav-bg: oklch(14% 0.01 195 / 0.85);
+    
     --font-main: 'Inter', sans-serif;
     --transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
 }
@@ -157,9 +162,8 @@ section {
     font-size: 2.5rem;
     margin-bottom: 3rem;
     /* Increased from 1rem for better clean separation */
-    background: linear-gradient(90deg, #fff, #94a3b8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--text-primary);
+    font-family: 'Playfair Display', serif;
     display: inline-block;
 }
 
@@ -706,8 +710,7 @@ strong {
     font-size: 2.5rem;
     color: var(--accent);
     margin-bottom: 15px;
-    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    /* Bouncy transition */
+    transition: transform 0.3s ease-out;
 }
 
 .info-item:hover i {
@@ -818,16 +821,15 @@ footer {
     margin-bottom: 0.5rem;
     letter-spacing: -2px;
     /* Modern tight spacing */
-    background: linear-gradient(to right, #ffffff, #cbd5e1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--text-primary);
+    font-family: 'Playfair Display', serif;
 }
 
 #typewriter {
     color: var(--accent);
-    /* Highlight skills in Cyan */
+    /* Highlight skills */
     font-weight: 700;
-    border-right: 3px solid var(--accent);
+    border-right: 3px solid var(--text-primary);
     /* Thicker cursor */
 }
 
@@ -842,7 +844,6 @@ footer {
     pointer-events: none;
     animation: float 6s ease-in-out infinite;
     filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.4));
-    /* Cyberpunk glow */
 }
 
 @keyframes float {
@@ -1369,8 +1370,9 @@ h1, h2, h3, h4, h5, h6, .section-title {
 
 .door-card h3 {
     font-size: 1.5rem;
-    margin-bottom: 15px;
-    color: var(--text-primary);
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .door-card p {
