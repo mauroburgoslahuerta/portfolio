@@ -651,15 +651,7 @@ const projectsData = {
     }
 };
 
-// Roles for Typewriter
-const rolesData = {
-    es: ["Tecnólogo Educativo", "Desarrollo EdTech", "Diseño Instruccional", "IA Educativa", "Pensamiento Computacional"],
-    gl: ["Tecnólogo Educativo", "Desenvolvemento EdTech", "Deseño Instrucional", "IA Educativa", "Pensamento Computacional"],
-    en: ["Educational Technologist", "EdTech Development", "Instructional Design", "Educational AI", "Computational Thinking"]
-};
 
-// Typewriter state
-let typeTimeout; // To clear timeout on changelang
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Animation Logic
@@ -692,8 +684,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 2. Typewriter Initialization (Default ES)
-    startTypewriter();
     // Back to Top Logic
     const backToTopBtn = document.getElementById('back-to-top');
     if (backToTopBtn) {
@@ -932,44 +922,7 @@ window.closeModal = function () {
 };
 
 
-function startTypewriter() {
-    const textElement = document.getElementById('typewriter');
-    if (!textElement) return;
 
-    if (typeof typeTimeout !== 'undefined' && typeTimeout) clearTimeout(typeTimeout);
-
-    const roles = rolesData['es'];
-    let roleIndex = 0;
-    let charIndex = 0;
-    let isDeleting = false;
-    let typeSpeed = 100;
-
-    function type() {
-        const currentRole = roles[roleIndex];
-
-        if (isDeleting) {
-            textElement.innerHTML = currentRole.substring(0, charIndex - 1);
-            charIndex--;
-            typeSpeed = 50;
-        } else {
-            textElement.innerHTML = currentRole.substring(0, charIndex + 1);
-            charIndex++;
-            typeSpeed = 100;
-        }
-
-        if (!isDeleting && charIndex === currentRole.length) {
-            isDeleting = true;
-            typeSpeed = 2000;
-        } else if (isDeleting && charIndex === 0) {
-            isDeleting = false;
-            roleIndex = (roleIndex + 1) % roles.length;
-            typeSpeed = 500;
-        }
-
-        typeTimeout = setTimeout(type, typeSpeed);
-    }
-    type();
-}
 
 window.revealPhone = function (container) {
     const mask = container.querySelector('.phone-mask');
