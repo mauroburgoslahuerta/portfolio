@@ -10,7 +10,7 @@ const projectsData = {
             "gl": "Edutestia - Plataforma Educativa con IA Xenerativa",
             "en": "Edutestia - Educational Platform with Generative AI"
         },
-        "tag": "IA",
+        "tag": "React | Supabase | IA",
         "iframeArr": [],
         "innerImage": ["assets/images/edutestia_logo.png", "assets/images/edutestia_platform.png"],
         "shortDesc": {
