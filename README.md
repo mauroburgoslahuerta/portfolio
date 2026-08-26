@@ -17,7 +17,7 @@ Mi perfil profesional se fundamenta en tres líneas de acción:
 
 ## Proyectos Destacados
 
-- **AventurIA:** Plataforma de desarrollo propio que transforma cualquier tema en una aventura educativa interactiva. Ajusta dinámicamente lenguaje y dificultad sin perder el enfoque pedagógico ni el control consciente humano.
+- **Edutestia:** Plataforma de desarrollo propio que transforma cualquier tema en una aventura educativa interactiva. Ajusta dinámicamente lenguaje y dificultad sin perder el enfoque pedagógico ni el control consciente humano.
 - **Pensamiento Computacional en el Aula:** Diseño instruccional de proyectos gamificados (Scratch, Arcade Makecode) para el desarrollo de la lógica y la resolución creativa de problemas en Educación Primaria.
 
 *Puedes explorar todos los proyectos interactivos directamente en la [web del portfolio](https://mauroburgoslahuerta.github.io/portfolio/).*

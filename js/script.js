@@ -4,24 +4,24 @@ let currentLang = 'es'; // Default language
 
 // 3. Multi-language Projects Data
 const projectsData = {
-    "aventuria-app": {
+    "edutestia-app": {
         "title": {
-            "es": "AventurIA - Plataforma Educativa con IA Generativa",
-            "gl": "AventurIA - Plataforma Educativa con IA Xenerativa",
-            "en": "AventurIA - Educational Platform with Generative AI"
+            "es": "Edutestia - Plataforma Educativa con IA Generativa",
+            "gl": "Edutestia - Plataforma Educativa con IA Xenerativa",
+            "en": "Edutestia - Educational Platform with Generative AI"
         },
         "tag": "IA",
         "iframeArr": [],
-        "innerImage": "assets/images/aventuria_preview.png",
+        "innerImage": "assets/images/edutestia_logo.jpg",
         "shortDesc": {
             "es": "Plataforma de desarrollo propio que transforma cualquier tema en una aventura educativa interactiva en segundos.",
             "gl": "Plataforma de desenvolvemento propio que transforma calquera tema nunha aventura educativa interactiva en segundos.",
             "en": "Self-developed platform that transforms any topic into an interactive educational adventure in seconds."
         },
         "desc": {
-            "es": "<strong>AventurIA</strong> transforma cualquier tema en una experiencia educativa interactiva. Su objetivo no es automatizar la educación, sino empoderar al creador: <strong>la IA propone, pero el criterio final siempre es humano.</strong><br><br><strong>Filosofía y Mecánicas:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🧠 Aprendizaje Adaptativo</strong>Ajusta dinámicamente lenguaje y dificultad, sin necesidad de programación manual.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🛡️ Enfoque Pedagógico</strong>Los temas sensibles no se censuran, se reformulan priorizando la reflexión y la convivencia.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>✨ Control Consciente</strong>Edición total de preguntas, respuestas e imágenes. Ningún contenido se publica sin validación.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>📈 Aprender Haciendo</strong>El error no penaliza. Se registra el primer y último intento para fomentar la mejora continua.</div></div>",
-            "gl": "<strong>AventurIA</strong> transforma calquera tema nunha experiencia educativa interactiva. O seu obxectivo non é automatizar a educación, senón empoderar ao creador: <strong>a IA propón, pero o criterio final sempre é humano.</strong><br><br><strong>Filosofía e Mecánicas:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🧠 Aprendizaxe Adaptativo</strong>Axusta dinamicamente linguaxe e dificultade, sen necesidade de programación manual.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🛡️ Enfoque Pedagóxico</strong>Os temas sensibles non se censuran, reformúlanse priorizando a reflexión e a convivencia.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>✨ Control Consciente</strong>Edición total de preguntas, respostas e imaxes. Ningún contido publícase sen validación.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>📈 Aprender Facendo</strong>O erro non penaliza. Rexístrase o primeiro e último intento para fomentar a mellora continua.</div></div>",
-            "en": "<strong>AventurIA</strong> transforms any topic into an interactive educational experience. Its goal is not to automate education, but to empower the creator: <strong>AI proposes, but the final judgment is always human.</strong><br><br><strong>Philosophy & Mechanics:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🧠 Adaptive Learning</strong>Dynamically adjusts language and difficulty without manual programming.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🛡️ Pedagogical Approach</strong>Sensitive topics are not censored, they are reframed prioritizing ethics and reflection.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>✨ Conscious Control</strong>Total editing of questions, answers, and images. No content is published without validation.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>📈 Learning by Doing</strong>Mistakes are not penalized. First and last attempts are recorded to foster continuous improvement.</div></div>"
+            "es": "<strong>Edutestia</strong> transforma cualquier tema en una experiencia educativa interactiva. Su objetivo no es automatizar la educación, sino empoderar al creador: <strong>la IA propone, pero el criterio final siempre es humano.</strong><br><br><strong>Filosofía y Mecánicas:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🧠 Aprendizaje Adaptativo</strong>Ajusta dinámicamente lenguaje y dificultad, sin necesidad de programación manual.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🛡️ Enfoque Pedagógico</strong>Los temas sensibles no se censuran, se reformulan priorizando la reflexión y la convivencia.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>✨ Control Consciente</strong>Edición total de preguntas, respuestas e imágenes. Ningún contenido se publica sin validación.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>📈 Aprender Haciendo</strong>El error no penaliza. Se registra el primer y último intento para fomentar la mejora continua.</div></div>",
+            "gl": "<strong>Edutestia</strong> transforma calquera tema nunha experiencia educativa interactiva. O seu obxectivo non é automatizar a educación, senón empoderar ao creador: <strong>a IA propón, pero o criterio final sempre é humano.</strong><br><br><strong>Filosofía e Mecánicas:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🧠 Aprendizaxe Adaptativo</strong>Axusta dinamicamente linguaxe e dificultade, sen necesidade de programación manual.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🛡️ Enfoque Pedagóxico</strong>Os temas sensibles non se censuran, reformúlanse priorizando a reflexión e a convivencia.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>✨ Control Consciente</strong>Edición total de preguntas, respostas e imaxes. Ningún contido publícase sen validación.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>📈 Aprender Facendo</strong>O erro non penaliza. Rexístrase o primeiro e último intento para fomentar a mellora continua.</div></div>",
+            "en": "<strong>Edutestia</strong> transforms any topic into an interactive educational experience. Its goal is not to automate education, but to empower the creator: <strong>AI proposes, but the final judgment is always human.</strong><br><br><strong>Philosophy & Mechanics:</strong><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;'><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🧠 Adaptive Learning</strong>Dynamically adjusts language and difficulty without manual programming.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>🛡️ Pedagogical Approach</strong>Sensitive topics are not censored, they are reframed prioritizing ethics and reflection.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>✨ Conscious Control</strong>Total editing of questions, answers, and images. No content is published without validation.</div><div style='background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);'><strong style='display:block; margin-bottom:4px;'>📈 Learning by Doing</strong>Mistakes are not penalized. First and last attempts are recorded to foster continuous improvement.</div></div>"
         },
         "objectives": {
             "es": [
@@ -51,21 +51,21 @@ const projectsData = {
             "gl": "1. Introduce un tema e a idade. <br>2. A IA xera un borrador que podes <strong>editar e pulir ao 100%</strong>. <br>3. Comparte a ligazón e analiza a evolución (nota inicial vs final) dos teus alumnos.",
             "en": "1. Enter a topic and age. <br>2. AI generates a draft you can <strong>edit and polish 100%</strong>. <br>3. Share the link and analyze your students' evolution (initial vs final score)."
         },
-        "link": "https://aventuria.vercel.app/"
+        "link": "https://edutestia.com/"
     },
-    "aventuria-example": {
+    "edutestia-example": {
         "title": {
-            "es": "AventurIA - Pensamiento Computacional (4.º EP)",
-            "gl": "AventurIA - Pensamento Computacional (4.º EP)",
-            "en": "AventurIA - Computational Thinking (4th Grade)"
+            "es": "Edutestia - Pensamiento Computacional (4.º EP)",
+            "gl": "Edutestia - Pensamento Computacional (4.º EP)",
+            "en": "Edutestia - Computational Thinking (4th Grade)"
         },
         "tag": "Diseño Instruccional",
         "iframeArr": [],
         "innerImage": "assets/images/aventuria_ct_game.png",
         "desc": {
-            "es": "Recurso educativo hecho con la plataforma <strong>AventurIA (de creación propia)</strong> para trabajar el Pensamiento Computacional en 4.º EP. Generé la estructura base con mi herramienta y <strong>revisé cada detalle al 100%</strong>, asegurando un contenido pedagógico de máxima calidad y totalmente adaptado a mis alumnos.",
-            "gl": "Recurso educativo feito coa plataforma <strong>AventurIA (de creación propia)</strong> para traballar o Pensamento Computacional en 4.º EP. Xerei a estrutura base coa miña ferramenta e <strong>revisei cada detalle ao 100%</strong>, asegurando un contido pedagóxico de máxima calidade e totalmente adaptado aos meus alumnos.",
-            "en": "Educational resource made with the <strong>AventurIA platform (my own creation)</strong> to work on Computational Thinking in 4th Grade. I generated the base structure with my tool and <strong>reviewed every detail 100%</strong>, ensuring maximum pedagogical quality content fully adapted to my students."
+            "es": "Recurso educativo hecho con la plataforma <strong>Edutestia (de creación propia)</strong> para trabajar el Pensamiento Computacional en 4.º EP. Generé la estructura base con mi herramienta y <strong>revisé cada detalle al 100%</strong>, asegurando un contenido pedagógico de máxima calidad y totalmente adaptado a mis alumnos.",
+            "gl": "Recurso educativo feito coa plataforma <strong>Edutestia (de creación propia)</strong> para traballar o Pensamento Computacional en 4.º EP. Xerei a estrutura base coa miña ferramenta e <strong>revisei cada detalle ao 100%</strong>, asegurando un contido pedagóxico de máxima calidade e totalmente adaptado aos meus alumnos.",
+            "en": "Educational resource made with the <strong>Edutestia platform (my own creation)</strong> to work on Computational Thinking in 4th Grade. I generated the base structure with my tool and <strong>reviewed every detail 100%</strong>, ensuring maximum pedagogical quality content fully adapted to my students."
         },
         "objectives": {
             "es": [
@@ -92,7 +92,7 @@ const projectsData = {
             "gl": "Fai clic en 'Xogar' para experimentar unha aventura real tal como a verían os teus alumnos.",
             "en": "Click 'Play' to experience a real adventure just as your students would see it."
         },
-        "link": "https://aventuria.vercel.app/?id=7f27b66a-900d-439b-bc8c-a2e3a1f21fb1"
+        "link": "https://edutestia.com/?id=7f27b66a-900d-439b-bc8c-a2e3a1f21fb1"
     },
     "pilla-al-pez": {
         "title": {
@@ -855,7 +855,7 @@ window.openModal = function (projectId) {
             let btnIcon = '<i class="fas fa-external-link-alt"></i>';
             const prefix = "Ver en ";
 
-            if (projectId === 'aventuria-app' || projectId === 'opos-forestales') {
+            if (projectId === 'edutestia-app' || projectId === 'opos-forestales') {
                 linkBtn.innerHTML = `Visitar Web <i class="fas fa-rocket"></i>`;
             } else if (project.tag.includes('Scratch')) {
                 linkBtn.innerHTML = `${prefix} Scratch <i class="fas fa-gamepad"></i>`;
