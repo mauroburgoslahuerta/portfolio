@@ -12,7 +12,7 @@ const projectsData = {
         },
         "tag": "IA",
         "iframeArr": [],
-        "innerImage": "assets/images/edutestia_logo.jpg",
+        "innerImage": "assets/images/edutestia_logo.png",
         "shortDesc": {
             "es": "Plataforma de desarrollo propio que transforma cualquier tema en una aventura educativa interactiva en segundos.",
             "gl": "Plataforma de desenvolvemento propio que transforma calquera tema nunha aventura educativa interactiva en segundos.",
