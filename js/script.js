@@ -25,25 +25,28 @@ const projectsData = {
         },
         "objectives": {
             "es": [
-                "Personalizar el aprendizaje de forma masiva",
+                "Personalizar el aprendizaje",
                 "Generar contenido en tiempo real",
                 "Proporcionar feedback inmediato",
                 "Gamificar sin barreras de entrada",
-                "Analizar el desempeño"
+                "Analizar el desempeño",
+                "Implementar un modelo SaaS funcional con pasarela de pagos (Stripe) y sistema de créditos"
             ],
             "gl": [
-                "Personalizar a aprendizaxe de forma masiva",
+                "Personalizar a aprendizaxe",
                 "Xerar contido en tempo real",
                 "Proporcionar feedback inmediato",
                 "Gamificar sen barreiras de entrada",
-                "Analizar o desempeño"
+                "Analizar o desempeño",
+                "Implementar un modelo SaaS funcional con pasarela de pagos (Stripe) e sistema de créditos"
             ],
             "en": [
-                "Personalize learning on a massive scale",
+                "Personalize learning",
                 "Generate content in real time",
                 "Provide immediate feedback",
                 "Gamify without entry barriers",
-                "Analyze performance"
+                "Analyze performance",
+                "Implement a functional SaaS model with a payment gateway (Stripe) and credit system"
             ]
         },
         "instructions": {
@@ -874,7 +877,7 @@ window.openModal = function (projectId) {
         const objectivesTitleSpan = document.getElementById('modal-objectives-title');
         if (objectivesTitleSpan) {
             const isEdTech = project.tag && (project.tag.includes('EdTech') || project.tag === 'IA' || project.tag.includes('Desarrollo'));
-            objectivesTitleSpan.textContent = isEdTech ? 'Características Técnicas' : 'Objetivos Didácticos';
+            objectivesTitleSpan.textContent = isEdTech ? 'Características del Producto' : 'Objetivos Didácticos';
         }
 
         // Objectives
