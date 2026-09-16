@@ -421,11 +421,11 @@ const projectsData = {
     },
     "opos-forestales": {
         "title": {
-            "es": "Plataforma Oposiciones Forestales (Galicia)",
-            "gl": "Plataforma Oposicións Forestais (Galicia)",
-            "en": "Forestry Exams Platform (Galicia)"
+            "es": "Opos Forestales - Plataforma de Estudio",
+            "gl": "Opos Forestais - Plataforma de Estudo",
+            "en": "Opos Forestales - Study Platform"
         },
-        "tag": "Desarrollo EdTech",
+        "tag": "React | Supabase",
         "iframeArr": [],
         "innerImage": "assets/images/opos_preview.png",
         "desc": {
