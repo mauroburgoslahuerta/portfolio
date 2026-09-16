@@ -429,9 +429,9 @@ const projectsData = {
         "iframeArr": [],
         "innerImage": "assets/images/opos_preview.png",
         "desc": {
-            "es": "Plataforma de estudio construida a medida para ayudar a mi hermano en la preparación de las oposiciones de Bombero Forestal en Galicia. Sustituye la simple lectura de PDFs por un sistema de aprendizaje interactivo. La herramienta centraliza el temario oficial, resúmenes y una base de datos de 1.400 preguntas y casos prácticos para que el alumno pueda evaluar su progreso real.",
-            "gl": "Plataforma de estudo construída a medida para axudar ao meu irmán na preparación das oposicións de Bombeiro Forestal en Galicia. Substitúe a simple lectura de PDFs por un sistema de aprendizaxe interactivo. A ferramenta centraliza o temario oficial, resumos e unha base de datos de 1.400 preguntas e casos prácticos para que o alumno poida avaliar o seu progreso real.",
-            "en": "Custom-built study platform created to help my brother prepare for the Forestry Firefighter exams in Galicia. It replaces reading static PDFs with an interactive learning system. The tool centralizes the official syllabus, summaries, and a database of 1,400 questions and practical cases so the student can evaluate their real progress."
+            "es": "Plataforma construida a medida para ayudar a mi hermano en la preparación de las oposiciones de Bombero Forestal en Galicia. Sustituye la simple lectura de PDFs por un sistema de aprendizaje interactivo. La herramienta centraliza el temario oficial, resúmenes y una base de datos de 1.400 preguntas y casos prácticos para que el alumno pueda evaluar su progreso real.",
+            "gl": "Plataforma construída a medida para axudar ao meu irmán na preparación das oposicións de Bombeiro Forestal en Galicia. Substitúe a simple lectura de PDFs por un sistema de aprendizaxe interactivo. A ferramenta centraliza o temario oficial, resumos e unha base de datos de 1.400 preguntas e casos prácticos para que o alumno poida avaliar o seu progreso real.",
+            "en": "Custom-built platform created to help my brother prepare for the Forestry Firefighter exams in Galicia. It replaces reading static PDFs with an interactive learning system. The tool centralizes the official syllabus, summaries, and a database of 1,400 questions and practical cases so the student can evaluate their real progress."
         },
         "objectives": {
             "es": [
