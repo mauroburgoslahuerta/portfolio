@@ -429,31 +429,31 @@ const projectsData = {
         "iframeArr": [],
         "innerImage": "assets/images/opos_preview.png",
         "desc": {
-            "es": "Plataforma de estudio a medida diseñada para superar la aridez de los temarios oficiales. A diferencia de los tests estáticos, esta herramienta <strong>ingesta texto bruto (PDFs del BOE) y lo transforma mediante IA en más de 1.400 ítems interactivos</strong> y simulacros de examen.<br><br>Nació como una solución estricta de uso familiar y cumplió su ciclo de vida con la fecha del examen. Como orquestador del proyecto, definí las mecánicas de este MVP (React 19, Supabase) y <strong>delegué íntegramente la programación a la IA</strong> para centrarme en el diseño pedagógico.",
-            "gl": "Plataforma de estudio a medida diseñada para superar la aridez de los temarios oficiales. A diferencia de los tests estáticos, esta herramienta <strong>ingesta texto bruto (PDFs del BOE) y lo transforma mediante IA en más de 1.400 ítems interactivos</strong> y simulacros de examen.<br><br>Nació como una solución estricta de uso familiar y cumplió su ciclo de vida con la fecha del examen. Como orquestador del proyecto, definí las mecánicas de este MVP (React 19, Supabase) y <strong>delegué íntegramente la programación a la IA</strong> para centrarme en el diseño pedagógico.",
-            "en": "Plataforma de estudio a medida diseñada para superar la aridez de los temarios oficiales. A diferencia de los tests estáticos, esta herramienta <strong>ingesta texto bruto (PDFs del BOE) y lo transforma mediante IA en más de 1.400 ítems interactivos</strong> y simulacros de examen.<br><br>Nació como una solución estricta de uso familiar y cumplió su ciclo de vida con la fecha del examen. Como orquestador del proyecto, definí las mecánicas de este MVP (React 19, Supabase) y <strong>delegué íntegramente la programación a la IA</strong> para centrarme en el diseño pedagógico."
+            "es": "Plataforma de estudio construida a medida para ayudar a mi hermano en la preparación de las oposiciones de Bombero Forestal en Galicia. Sustituye la simple lectura de PDFs por un sistema de aprendizaje interactivo. La herramienta centraliza el temario oficial, resúmenes y una base de datos de 1.400 preguntas y casos prácticos para que el alumno pueda evaluar su progreso real.",
+            "gl": "Plataforma de estudo construída a medida para axudar ao meu irmán na preparación das oposicións de Bombeiro Forestal en Galicia. Substitúe a simple lectura de PDFs por un sistema de aprendizaxe interactivo. A ferramenta centraliza o temario oficial, resumos e unha base de datos de 1.400 preguntas e casos prácticos para que o alumno poida avaliar o seu progreso real.",
+            "en": "Custom-built study platform created to help my brother prepare for the Forestry Firefighter exams in Galicia. It replaces reading static PDFs with an interactive learning system. The tool centralizes the official syllabus, summaries, and a database of 1,400 questions and practical cases so the student can evaluate their real progress."
         },
         "objectives": {
             "es": [
-                "Ingestar contenido oficial masivo mediante pipelines ETL asistidos por IA",
-                "Implementar mecánicas de 'immediate feedback' y Clínica de Errores",
-                "Desarrollar un dashboard analítico con seguimiento de precisión semaforizado",
-                "Diseñar una arquitectura escalable (React 19, Context API, Supabase)",
-                "Crear una experiencia de usuario fluida con Tailwind v4 y framer-motion"
+                "Temario y resúmenes: Contenido oficial de estudio estructurado para facilitar la lectura.",
+                "Simulacros de examen: Generador de tests aleatorios basados en la base de datos de 1.400 ítems.",
+                "Clínica de errores: Sistema que guarda las preguntas falladas para forzar su repaso.",
+                "Seguimiento visual: Panel de control para consultar las estadísticas de aciertos por tema.",
+                "Ingesta por IA: Uso de Inteligencia Artificial en la fase de desarrollo para transformar la normativa oficial en preguntas de test."
             ],
             "gl": [
-                "Inxestar contido oficial masivo mediante pipelines ETL asistidos por IA",
-                "Implementar mecánicas de 'immediate feedback' e Clínica de Erros",
-                "Desenvolver un dashboard analítico con seguimento de precisión semaforizado",
-                "Deseñar unha arquitectura escalable (React 19, Context API, Supabase)",
-                "Crear unha experiencia de usuario fluída con Tailwind v4 e framer-motion"
+                "Temario e resumos: Contido oficial de estudo estruturado para facilitar a lectura.",
+                "Simulacros de exame: Xerador de tests aleatorios baseados na base de datos de 1.400 ítems.",
+                "Clínica de erros: Sistema que garda as preguntas falladas para forzar o seu repaso.",
+                "Seguimento visual: Panel de control para consultar as estatísticas de acertos por tema.",
+                "Inxesta por IA: Uso de Intelixencia Artificial na fase de desenvolvemento para transformar a normativa oficial en preguntas de test."
             ],
             "en": [
-                "Ingest massive official content using AI-assisted ETL pipelines",
-                "Implement 'immediate feedback' mechanics and an Error Clinic",
-                "Develop an analytical dashboard with traffic-light accuracy tracking",
-                "Design a scalable architecture (React 19, Context API, Supabase)",
-                "Create a seamless user experience with Tailwind v4 and framer-motion"
+                "Syllabus and summaries: Official study content structured for easy reading.",
+                "Mock exams: Random test generator based on the 1,400-item database.",
+                "Error clinic: System that saves failed questions to force their review.",
+                "Visual tracking: Dashboard to check accuracy statistics by topic.",
+                "AI Ingestion: Use of Artificial Intelligence in the development phase to transform official regulations into test questions."
             ]
         },
         "instructions": {
